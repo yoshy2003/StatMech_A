@@ -14,6 +14,7 @@ Collection of MATLAB Live Scripts on the class "Statistical Mechanics A"
 ### canonical distribution
 
 - Coin_canonical.mlx
+  - [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Coin_canonical.mlx)
 
 ### micro-canonical distribution
 
