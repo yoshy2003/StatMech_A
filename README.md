@@ -8,8 +8,11 @@ Collection of MATLAB Live Scripts on the class "Statistical Mechanics A"
 ### Probability and statistics
 
 - random_number_lec_21v1.mlx
+  - [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=random_number_lec_21v1.mlx)
 - plot_distribution_lec_21v1.mlx
+  - [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=plot_distribution_lec_21v1.mlx)
 - binomial_distribution_lec.mlx
+  - [![Open in MATLAB Onlinea](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=binomial_distribution_lec.mlx)
 
 ### canonical distribution
 
