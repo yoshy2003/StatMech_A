@@ -1,11 +1,9 @@
-# 統計力学Ａ講義
-[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A)
+# 統計力学講義
 
-
----
 ## 全体の説明
 
 - マクロな系の平衡状態における熱力学量を、分子や原子など系を構成するミクロな粒子の状態に対する分布の平均値・偏差として導出する手法 （平衡統計力学）を学ぶ。
+
 
 
 ### 前提となる知識
@@ -29,17 +27,20 @@
 
 #### 1.1 確率と統計
 
-- random_number_lec_21v1.mlx
-  - [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=random_number_lec_21v1.mlx)
-- plot_distribution_lec_21v1.mlx
-  - [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=plot_distribution_lec_21v1.mlx)
+(1) 乱数生成 [random_number_lec_21v1.mlx](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/random_number_lec_21v1.mlx) [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A/Livescripts&file=random_number_lec_21v1.mlx)
+
+(2) 確率分布 plot_distribution_lec_21v1.mlx [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=plot_distribution_lec_21v1.mlx)
+
 - binomial_distribution_lec.mlx
   - [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=binomial_distribution_lec.mlx)
 
 #### 1.2 数学的準備
 
+(1) スターリングの公式 Stirling_formula_lec.mlx
+
+
+
 - sum-int.mlx
-- Stirling_formula_lec.mlx
 
 
 #### 1.3 その他
