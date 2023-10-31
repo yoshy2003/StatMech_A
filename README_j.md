@@ -49,15 +49,14 @@
 
 (1) スターリングの公式について
 - ライブスクリプト： Stirling_formula_lec.mlx
-- 説明<br>
-<img width="300" src="./Images/test.png" style="margin:10px" >
-
+- Stirlingの公式： $\ln N! \approx N\ln N - N$に関する説明
 - 学習ポイント
-  - １
-  - ２
+  - 公式の証明を視覚的に理解する
+  - $N$が大きくなるにつれて、近似の精度がどのように変化するかを把握する
+<img width="300" src="./Images/Stirling_1.png" style="margin:10px" >
 
 
-
+(2) 和と積分
 - sum-int.mlx
 
 
