@@ -51,6 +51,7 @@
 - ライブスクリプト： Stirling_formula_lec.mlx
 - 説明<br>
 <img width="300" src="./Images/test.png" style="margin:10px" >
+
 - 学習ポイント
   - １
   - ２
