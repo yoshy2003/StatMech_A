@@ -36,7 +36,6 @@
 - ライブスクリプト：　[random_number_lec_21v1.mlx](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/random_number_lec_21v1.mlx) 
 - 説明
 
-<img width="300" src="./Images/test.png" style="margin:10px" >
 
 
 
@@ -48,7 +47,13 @@
 
 #### 1.2 数学的準備
 
-(1) スターリングの公式 Stirling_formula_lec.mlx
+(1) スターリングの公式について
+- ライブスクリプト： Stirling_formula_lec.mlx
+- 説明<br>
+<img width="300" src="./Images/test.png" style="margin:10px" >
+- 学習ポイント
+  - １
+  - ２
 
 
 
