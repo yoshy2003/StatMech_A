@@ -1,9 +1,8 @@
-# 統計力学講義
+# 統計力学
 
 ## 全体の説明
 
 - マクロな系の平衡状態における熱力学量を、分子や原子など系を構成するミクロな粒子の状態に対する分布の平均値・偏差として導出する手法 （平衡統計力学）を学ぶ。
-
 
 
 ### 前提となる知識
@@ -28,6 +27,10 @@
 #### 1.1 確率と統計
 
 (1) 乱数生成 [random_number_lec_21v1.mlx](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/random_number_lec_21v1.mlx) [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A/Livescripts&file=random_number_lec_21v1.mlx)
+
+<img width="500" src="./Images/test.png" style="margin:10px" >
+
+
 
 (2) 確率分布 plot_distribution_lec_21v1.mlx [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=plot_distribution_lec_21v1.mlx)
 
