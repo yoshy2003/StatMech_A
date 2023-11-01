@@ -6,7 +6,8 @@
 - 以下のトピックスが含まれています。
   - 確率と統計
   - カノニカル分布
-  - その他
+  - 準備中
+- 内容は随時追加されます。 
 
 
 ### 前提となる知識
@@ -31,15 +32,18 @@
 
 #### 1.1 確率と統計
 
-(1) 乱数生成 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A/Livescripts&file=random_number_lec_21v1.mlx)
+(1) 乱数生成 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/random_number_lec_21v1.mlx)
+
+- 説明
 
 - ライブスクリプト：　[random_number_lec_21v1.mlx](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/random_number_lec_21v1.mlx) 
-- 説明
 
 
 
 
 (2) 確率分布 plot_distribution_lec_21v1.mlx [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=plot_distribution_lec_21v1.mlx)
+
+- 説明
 
 - binomial_distribution_lec.mlx
   - [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=binomial_distribution_lec.mlx)
@@ -47,13 +51,14 @@
 
 #### 1.2 数学的準備
 
-(1) スターリングの公式について
-- ライブスクリプト： Stirling_formula_lec.mlx
+(1) スターリングの公式について [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Stirling_formula_lec.mlx)
+
 - Stirlingの公式： $\ln N! \approx N\ln N - N$に関する説明
 - 学習ポイント
   - 公式の証明を視覚的に理解する
   - $N$が大きくなるにつれて、近似の精度がどのように変化するかを把握する
 <img width="300" src="./Images/Stirling_1.png" style="margin:10px" >
+- ライブスクリプト： Stirling_formula_lec.mlx
 
 
 (2) 和と積分
