@@ -113,6 +113,10 @@ Stirlingの公式： $\ln N! \approx N\ln N - N$に関する説明
 - MATLAB
 
 ## ライセンス
-- LICENSE ファイルを参照
+
+Copyright (C) 2023- Yoshihiro Yamazaki
+
+ソフトウェアコードはMITライセンスに従い、ドキュメンテーションや画像はCC-BY 4.0に従う。
+
 
 
