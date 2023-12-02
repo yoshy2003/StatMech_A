@@ -46,6 +46,7 @@
 
 - ライブスクリプト
   - plot_distribution_lec_21v1 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=plot_distribution_lec_21v1.mlx)
+  <img width="300" src="./Images/Normal_dist.png" style="margin:10px" >
 
 #### 1.2 確率分布
 
