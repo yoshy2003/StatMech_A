@@ -3,10 +3,10 @@
 ## 全体の説明
 
 - このカリキュラムモジュールには、統計力学の基礎を理解するための対話型のMATLAB®ライブスクリプトが含まれています。
-- 以下のトピックスが含まれています。
-  - 確率と統計・カノニカル分布・状態の遷移・相互作用と相転移・ゆらぎと緩和
-  - 以下は準備中：量子統計・臨界現象
-- 内容は随時追加されます。
+- 内容は随時、追加・更新されます。
+- 2023年12月1日現在
+  - 確率と統計
+  - カノニカル分布
 
 ### 前提となる知識
 
@@ -20,12 +20,14 @@
 ### 学習目標
 
 - マクロな系の平衡状態における熱力学量を、分子や原子など系を構成するミクロな粒子の状態に対する分布の平均値・偏差として導出する手法 （平衡統計力学）を学ぶ。
-- 物理学を体系的に学び、現代物理学の基礎的知識の習得する。
-- ボルツマンの関係式・カノニカル分布・グランドカノニカル分布の意味を理解し、具体的な問題に適用して種々の熱力学的量が計算できるようになることを目標とする。
+- ボルツマンの関係式・カノニカル分布の意味を理解し、具体的な問題に適用して種々の熱力学的量が計算できるようになることを目標とする。
 
 ### 学習の流れ
 
-- a
+- 各ライブスクリプトにある
+  1. 理論的背景を確認する
+  2. コードを実行する
+  3. 演習に取り組む
 
 ---
 
@@ -35,17 +37,35 @@
 
 #### 1.1 確率と統計
 
-- 乱数を用いて計算
-- 期待値・分散・標準偏差
+- 乱数の生成と応用
+- 期待値・分散・標準偏差の計算
 - ライブスクリプト
   - plot_distribution_lec_21v1 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=plot_distribution_lec_21v1.mlx)
 
-#### 1.2 ２項分布
+#### 1.2 確率分布
 
 - 説明
 
 - ライブスクリプト
   - binomial_distribution_lec.mlx [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=binomial_distribution_lec.mlx)
+
+#### 1.4 ガウス分布（正規分布）
+
+
+
+(1) 乱数生成 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/random_number_lec_21v1.mlx)
+
+- 説明
+
+- ライブスクリプト：　[random_number_lec_21v1.mlx](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/random_number_lec_21v1.mlx) 
+
+
+
+
+(2) 和と積分
+- sum-int.mlx
+
+
 
 
 #### 1.3 スターリングの公式
@@ -63,23 +83,6 @@
 <img width="300" src="./Images/Stirling_1.png" style="margin:10px" >
 - ライブスクリプト： Stirling_formula_lec.mlx
 
-
-
-#### 1.4 ガウス分布（正規分布）
-
-
-
-(1) 乱数生成 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/random_number_lec_21v1.mlx)
-
-- 説明
-
-- ライブスクリプト：　[random_number_lec_21v1.mlx](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/random_number_lec_21v1.mlx) 
-
-
-
-
-(2) 和と積分
-- sum-int.mlx
 
 
 
