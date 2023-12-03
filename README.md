@@ -3,7 +3,7 @@
 
 Collection of MATLAB Live Scripts on the class "Statistical Mechanics A"
 
-Japanese version is [here](./README.md). （日本語のページは [こちら](./README.md)）
+Japanese version is [here](./README_j.md). （日本語のページは [こちら](./README_j.md)）
 
 ## Fundamentals
 
