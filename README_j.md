@@ -75,7 +75,7 @@
 #### ===== 概要 =====
 
 - 統計力学において基本的な以下の確率分布を紹介する。
-  - 一様分布・二項分布・正規分布・指数分布
+  - 指数分布・二項分布・正規分布
 - 乱数は等確率に生成される（一様乱数の場合）だけでなく、特定の確率分布に従うように生成される場合もある。
   - 例えば、1次元ランダムウォークの結果として得られる位置を再現したい場合には、二項分布または正規分布に従った乱数を生成することになる。
   - このように、特定の確率分布に従う乱数を生成することで、物理現象の数値的再現が可能となる。
@@ -85,14 +85,15 @@
   - 例えば、コインの状態は離散的（表か裏）、粒子の位置は連続的に分布する。
   - 連続変数で表される場合は、確率密度 $p(x)$を用いて、区間 $x$から $x+dx$までの確率が $p(x)dx$で与えられる。
   - 確率の総和が1であることに注意して、離散と連続との変換を行うことができる。
-- 確率分布に従った乱数生成・頻度分布の描画・フィッティング
+- 確率分布に従った乱数生成
+  - 頻度分布の描画し、関数でフィッティングすることにより確認する。
 
 #### ===== ライブスクリプト =====
 
 | 項目 | リンク |
 | -------------- | -------------- |
-| (1) 指数分布 | 準備中 |
-| (2) ２項分布と正規分布 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=binomial_distribution_lec.mlx) |
+| (1) 基本的な確率分布 | 準備中 |
+| (2) 確率分布に従う乱数の生成 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=binomial_distribution_lec.mlx) |
 | (4) 和と積分について | 準備中 |
 
 ---
@@ -136,6 +137,7 @@ Stirlingの公式 $\ln N! \approx N\ln N - N$ が用いられる。
 | 項目 | リンク |
 | -------------- | -------------- |
 |(1) モンテカルロ法による面積計算 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Monte_Carlo_lec_21v1.mlx)|
+| (3) コイン投げモデル | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=plot_distribution_lec_21v1.mlx) |
 | (3) Galton Board シミュレーション | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=plot_distribution_lec_21v1.mlx) |
 
 ---
