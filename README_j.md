@@ -6,8 +6,10 @@
 - 統計力学を始めて学ぶ学生を対象に、数値シミュレーションを通して、基本的な概念や理論の背景を理解することを目的とする。
 - 初学者が統計物理学の世界にスムーズに入門できるよう、直感的な説明と演習問題を提供する。
 - なお、このサイトの内容は、座学で学ぶ統計力学講義に対する、数値計算・数値シミュレーションを用いた補助的な位置づけとなっている。
+- 各節は、概要とライブスクリプトから成り立っており、各章には、理解度確認のため、章末問題がついている。
 
 ### 目次
+
 1. 準備（乱数・確率・分布・統計）
     - 乱数生成と分布の描画
     - 確率分布
@@ -25,7 +27,8 @@
 
 ### 前提となる知識
 
-- 熱力学・古典力学・量子力学
+- 熱力学
+- 古典力学・量子力学
   - 特に、エネルギーに関連する内容
 
 ### 対象学年
@@ -35,20 +38,19 @@
 ### 学習目標
 
 - マクロな状態とミクロな状態との関係に関する基本的な概念を理解する。
-- 乱数に基づく数値シミュレーションを通して、統計力学の基本的な原理を学ぶ。
+- 乱数に基づく数値シミュレーションを通して、統計力学の基礎を学ぶ。
 - ライブスクリプトを通じて理論の理解を深め、実際の物理現象をモデル化しシミュレーションできるようになる。
 
 ### 学習の流れ
 
-- 各ライブスクリプトにある
-  1. 理論的背景を確認する
-  2. コードを実行する
-  3. 演習に取り組む（理解度確認）
+1. 概要を読み、目的を確認する
+2. ライブスクリプトの内容に従って、コードを実行する
+3. ライブスクリプトにある例題に取り組む
+4. 章末の演習問題に取り組む（理解度確認）
 
 ---
 
-## 1. 準備（乱数・確率・分布・統計）
-
+## 1. 準備（乱数・分布／確率・統計）
 
 ### 1.1 乱数生成と分布の描画
 
@@ -65,7 +67,6 @@ MATLABには一様乱数や正規乱数を生成する関数が標準で提供�
 | (1) 乱数生成  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/random_number_lec_21v1.mlx)  |
 | (2) 乱数列の頻度分布とフィッティング | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=plot_distribution_lec_21v1.mlx) |
 
-
 ---
 
 ### 1.2 確率分布
@@ -73,6 +74,9 @@ MATLABには一様乱数や正規乱数を生成する関数が標準で提供�
 #### ＊＊＊　概要　＊＊＊
 
 ここでは、MATLABを用いて、２項分布と正規分布を学ぶ
+
+基本的な統計量（平均・分散・偏差）を求める。
+
 
 #### ＊＊＊　ライブスクリプト　＊＊＊
 
@@ -130,6 +134,13 @@ Stirlingの公式： $\ln N! \approx N\ln N - N$に関する説明
 | -------------- | -------------- |
 |(1) モンテカルロ法の例 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Monte_Carlo_lec_21v1.mlx)|
 
+---
+
+### 章末演習問題（1．準備）
+
+| 項目 | リンク |
+| -------------- | -------------- |
+|(1) ＊＊＊モンテカルロ法の例 | 準備中 |
 
 
 ---
@@ -187,6 +198,13 @@ Stirlingの公式： $\ln N! \approx N\ln N - N$に関する説明
 | (1) コイン交換モデルと平衡状態  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Coin_exchange_23.mlx)|
 | (2) コイン交換モデルによる緩和過程  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=coin_exchange_lec_21v1.mlx)|
 
+---
+
+### 章末演習問題（2．カノニカル分布）
+
+| 項目 | リンク |
+| -------------- | -------------- |
+|(1) ＊＊＊ | 準備中 |
 
 ---
 
@@ -216,6 +234,13 @@ Stirlingの公式： $\ln N! \approx N\ln N - N$に関する説明
 
 #### ＊＊＊　準備中　＊＊＊
 
+---
+
+### 章末演習問題（3．ミクロな状態遷移とゆらぎ）
+
+| 項目 | リンク |
+| -------------- | -------------- |
+|(1) ＊＊＊ | 準備中 |
 
 
 ---
@@ -238,6 +263,24 @@ Stirlingの公式： $\ln N! \approx N\ln N - N$に関する説明
 | (1) ランダムウォーク  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/random_walk_lec_21v1.mlx)  |
 
 
+---
+
+### 章末演習問題（4．ランダムウォークと拡散）
+
+| 項目 | リンク |
+| -------------- | -------------- |
+|(1) ＊＊＊ | 準備中 |
+
+
+---
+
+## 参考図書
+
+- 久保亮五　「統計力学」（共立出版）
+- 大沢文夫　「大沢流　手づくり統計力学」（名古屋大学出版会）
+- 田崎晴明　「統計力学　Ⅰ・Ⅱ」（培風館）
+- 今田正俊　「統計物理学」（丸善出版）
+- 松下貢　「物理学講義　統計力学入門」（裳華房）
 
 ---
 
