@@ -36,7 +36,7 @@
 
 ### 学習の流れ
 
-1. 概要を読み、目的を確認する
+1. 概要を読み、各節の目的を確認する
 2. ライブスクリプトの内容に従って、コードを実行する
 3. ライブスクリプトにある例題に取り組む
 4. 章末の演習問題に取り組む（理解度確認）
@@ -56,9 +56,9 @@
 
 #### ===== ライブスクリプト =====
 
-| 項目 | リンク |
-| -------------- | -------------- |
-| (1) 一様乱数の生成と頻度分布の描画  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/uniform_random_number_histogram_lec_23.mlx)  |
+| 項目 | Livescript | MATLAB Online での実行 |
+| -------------- | -------------- | -------------- |
+| (1) 一様乱数の生成と頻度分布の描画  | [ダウンロード](./Livescripts/uniform_random_number_histogram_lec_23.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/uniform_random_number_histogram_lec_23.mlx)  |
 
 ---
 
