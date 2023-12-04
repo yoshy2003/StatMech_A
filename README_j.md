@@ -57,7 +57,7 @@
 
 #### ===== 概要 =====
 
-- 乱数（random number）は、ランダム（無規則に）選択された数値を指す。
+- 乱数（random number）は、一般にランダム選択された数値を指す。
 - 計算機上で完全なランダム性を実現することは困難であるため、線形合同法やメルセンヌ・ツイスター法といった擬似乱数として知られるアルゴリズムに基づいた数値が使用される。
   - [MATLABでは、メルセンヌ・ツイスター法がデフォルトとなっている。](https://jp.mathworks.com/matlabcentral/answers/223373-)
 - 乱数は等確率に生成される（一様乱数の場合）だけでなく、特定の確率分布に従うように生成される場合もある。
@@ -71,7 +71,7 @@
 | 項目 | リンク |
 | -------------- | -------------- |
 | (1) 乱数生成  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/random_number_lec_21v1.mlx)  |
-| (2) 乱数列の頻度分布とフィッティング | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=plot_distribution_lec_21v1.mlx) |
+| (2) 頻度分布の描画 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=plot_distribution_lec_21v1.mlx) |
 
 ---
 
@@ -90,8 +90,9 @@
 
 | 項目 | リンク |
 | -------------- | -------------- |
-| (1) ２講分布と正規分布 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=binomial_distribution_lec.mlx) |
-| (2) 和と積分について | 準備中 |
+| (1) 一様分布と指数分布 | 準備中 |
+| (2) ２項分布と正規分布 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=binomial_distribution_lec.mlx) |
+| (4) 和と積分について | 準備中 |
 
 ---
 
@@ -99,7 +100,7 @@
 
 #### ===== 概要 =====
 
-- 統計力学では、階乗 $N!$に対して指数関数による近似を行う際、<br>
+- 統計力学では、階乗 $N!$に対して指数関数による近似を行う際に、<br>
 Stirlingの公式 $\ln N! \approx N\ln N - N$ が用いられる。
 - ここでは、 Stirlingの公式を視覚的に理解する
 - また、$N$が大きくなるにつれて、近似の精度がどのように変化するかを把握する
@@ -109,15 +110,15 @@ Stirlingの公式 $\ln N! \approx N\ln N - N$ が用いられる。
 
 | 項目 | リンク |
 | -------------- | -------------- |
-|(1) スターリングの公式 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Stirling_formula_lec.mlx)|
+|(1) スターリングの公式：証明と近似精度 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Stirling_formula_lec.mlx)|
 
 ---
 
-### 1.4 モンテカルロ法
+### 1.4 乱数を用いた数値計算
 
 #### ===== 概要 =====
 
-- モンテカルロ法は、乱数を利用した数値計算の一種である。
+- 乱数を利用した数値計算は一般に、モンテカルロ法と呼ばれている。
 - ここでは一例として、乱数を利用して、特定の領域に対する面積を求める方法を紹介する。
   - 例えば、正方形の領域内に特定の領域が存在するとして、正方形の面積を $S$、特定の領域の面積を $S_1$とする。
   - なお、$S$は既知として、 $S_1$を求めることにしよう。
@@ -133,7 +134,9 @@ Stirlingの公式 $\ln N! \approx N\ln N - N$ が用いられる。
 
 | 項目 | リンク |
 | -------------- | -------------- |
-|(1) モンテカルロ法の例 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Monte_Carlo_lec_21v1.mlx)|
+|(1) モンテカルロ法による面積計算 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Monte_Carlo_lec_21v1.mlx)|
+| (3) 乱数列の頻度分布に対するフィッティング | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=plot_distribution_lec_21v1.mlx) |
+| (3) ２項分布の生成 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=plot_distribution_lec_21v1.mlx) |
 
 ---
 
