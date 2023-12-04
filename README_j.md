@@ -5,24 +5,16 @@
 - このリポジトリには、統計力学の基礎を理解するための対話型のMATLAB®ライブスクリプトが含まれている。
 - 統計力学を始めて学ぶ学生を対象に、数値シミュレーションを通して、基本的な概念や理論の背景を理解することを目的とする。
   - 特に、初学者が統計物理学の世界にスムーズに入門できるよう、直感的な説明と演習問題を提供する。
-- なお、このサイトは、数値計算・数値シミュレーションを用いた、座学で学ぶ統計力学講義に対する補助的な位置づけとなっている。
+- このサイトの内容は、数値計算・数値シミュレーションを用いた、座学で学ぶ統計力学講義に対する補助的な位置づけとなっている。
 - 各節は、概要とライブスクリプトから構成され、各章には、理解度確認のため、章末問題がついている。
 
 ### 目次
 [マインドマップ](https://github.com/yoshy2003/StatMech_A/blob/main/Images/mindmap.png)
 
 1. 準備（乱数・確率・分布・統計）
-    - 乱数生成と分布の描画
-    - 確率分布
-    - スターリングの公式
-    - 乱数を用いた数値計算
 2. カノニカル分布
-    - コイン分配モデル
-    - コイン交換モデル
 3. ミクロな状態遷移とゆらぎ
-    - 詳細釣合いと平衡状態
 4. ランダムウォークと拡散
-    - ランダムウォーク
 
 （2023年12月1日現在。内容は随時、追加・更新されます。）
 
@@ -234,6 +226,9 @@ Stirlingの公式 $\ln N! \approx N\ln N - N$ が用いられる。
 | 項目 | リンク |
 | -------------- | -------------- |
 | (1) 詳細つりあいと平衡状態  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/Detailed_balance_21v1.mlx)  |
+| (1) ２準位系  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/Detailed_balance_21v1.mlx)  |
+| (2) イジングモデル  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/Detailed_balance_21v1.mlx)  |
+
 
 
 ### 3.2 相転移ダイナミクス
@@ -268,8 +263,25 @@ Stirlingの公式 $\ln N! \approx N\ln N - N$ が用いられる。
 | -------------- | -------------- |
 | (1) ランダムウォーク  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/random_walk_lec_21v1.mlx)  |
 
+---
+### 4.2 拡散
+
+#### ＊＊＊　概要　＊＊＊
+
+ランダムウォークは、非平衡状態の物理系を理解するための基本的なモデルとして広く用いられており、ブラウン運動などの物理現象を数理的に表現する際に重要な役割を果たす。
+また、ランダムウォークの統計的性質は、マクロな状態の予測可能性とミクロなランダム性の関係を示す一例としても有用である。
+実際、ランダムウォークの統計的性質として、初期点から $N$ステップ後の位置までの変位ベクトル $R(N)$に着目すると、 $R(N)^2$のサンプル平均（平均二乗変位）が $N$に比例することが知られている（ランダムウォークの拡散性）。
+
+
+#### ＊＊＊　ライブスクリプト　＊＊＊
+
+| 項目 | リンク |
+| -------------- | -------------- |
+| (1) 拡散  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/random_walk_lec_21v1.mlx)  |
+
 
 ---
+
 
 ### 章末演習問題（4．ランダムウォークと拡散）
 
