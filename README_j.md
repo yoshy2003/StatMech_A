@@ -32,7 +32,7 @@
 
 - マクロな状態とミクロな状態との関係に関する基本的な概念を理解する。
 - 乱数に基づく数値シミュレーションを通して、統計力学の基礎を学ぶ。
-- ライブスクリプトを通じて理論の理解を深め、実際の物理現象をモデル化しシミュレーションできるようになる。
+- ライブスクリプトを用いて理論の理解を深め、実際の物理現象をモデル化しシミュレーションできるようになる。
 
 ### 学習の流れ
 
@@ -50,7 +50,7 @@
 #### ===== 概要 =====
 
 - 乱数（random number）は、ランダム選択された数値を指す。
-- 計算機上で完全なランダム性を実現することは困難であるため、線形合同法やメルセンヌ・ツイスター法といった擬似乱数として知られるアルゴリズムに基づいた数値が使用される。
+- 計算機上で完全なランダム性を有する乱数生成を実現することは困難であるため、線形合同法やメルセンヌ・ツイスター法として知られる疑似乱数生成アルゴリズムに基づき生成された乱数が使用される。
   - [MATLABでは、メルセンヌ・ツイスター法がデフォルトとなっている。](https://jp.mathworks.com/matlabcentral/answers/223373-)
 - 生成された乱数列の頻度分布を可視化するために、ヒストグラムを描画する関数を利用することができる。
 
@@ -68,11 +68,11 @@
 
 - 統計力学において基本的な以下の確率分布を紹介する。
   - 指数分布・二項分布・正規分布
+  - 確率分布に対する基本的な統計量（平均・分散・偏差）を求める。
 - 乱数は等確率に生成される（一様乱数の場合）だけでなく、特定の確率分布に従うように生成される場合もある。
   - 例えば、1次元ランダムウォークの結果として得られる位置を再現したい場合には、二項分布または正規分布に従った乱数を生成することになる。
   - このように、特定の確率分布に従う乱数を生成することで、物理現象の数値的再現が可能となる。
 - MATLABには一様乱数や正規乱数を生成する関数が標準で提供されており、これらを利用して乱数列を生成することができる。
-- 確率分布に対する基本的な統計量（平均・分散・偏差）を求める。
 - 確率分布は離散的にも連続的にも表すことができる。
   - 例えば、コインの状態は離散的（表か裏）、粒子の位置は連続的に分布する。
   - 連続変数で表される場合は、確率密度 $p(x)$を用いて、区間 $x$から $x+dx$までの確率が $p(x)dx$で与えられる。
@@ -82,11 +82,12 @@
 
 #### ===== ライブスクリプト =====
 
-| 項目 | リンク |
-| -------------- | -------------- |
-| (1) 基本的な確率分布 | 準備中 |
-| (2) 確率分布に従う乱数の生成 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=binomial_distribution_lec.mlx) |
-| (4) 和と積分について | 準備中 |
+| 項目 | Livescript | MATLAB Online での実行 |
+| -------------- | -------------- | -------------- |
+| (1) 基本的な種々の確率分布 | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=probabilityl_distributions_lec_v23.mlx) |
+| (2) 確率分布に従う乱数の生成 | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=binomial_distribution_lec.mlx) |
+| (3) 乱数の頻度分布に対するフィッティング | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=binomial_distribution_lec.mlx) |
+| (4) 和と積分について | 準備中 | 準備中 |
 
 ---
 
@@ -105,6 +106,7 @@ Stirlingの公式 $\ln N! \approx N\ln N - N$ が用いられる。
 | 項目 | リンク |
 | -------------- | -------------- |
 |(1) スターリングの公式：証明と近似精度 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Stirling_formula_lec.mlx)|
+|(2) 二項分布と正規分布 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Stirling_formula_lec.mlx)|
 
 ---
 
@@ -294,10 +296,10 @@ Stirlingの公式 $\ln N! \approx N\ln N - N$ が用いられる。
 
 ## 参考図書
 
-- 久保亮五　「統計力学」（共立出版）
-- 大沢文夫　「大沢流　手づくり統計力学」（名古屋大学出版会）
-- 田崎晴明　「統計力学　Ⅰ・Ⅱ」（培風館）
 - 今田正俊　「統計物理学」（丸善出版）
+- 大沢文夫　「大沢流　手づくり統計力学」（名古屋大学出版会）
+- 久保亮五　「統計力学」（共立出版）
+- 田崎晴明　「統計力学　Ⅰ・Ⅱ」（培風館）
 - 松下貢　「物理学講義　統計力学入門」（裳華房）
 
 ---
