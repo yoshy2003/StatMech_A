@@ -12,7 +12,7 @@
 [マインドマップ](https://github.com/yoshy2003/StatMech_A/blob/main/Images/mindmap.png)
 
 1. 準備（乱数・確率・分布・統計）
-2. カノニカル分布
+2. カノニカル分布・
 3. ミクロな状態遷移とゆらぎ
 4. ランダムウォークと拡散
 
