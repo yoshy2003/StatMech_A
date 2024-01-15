@@ -3,13 +3,14 @@
 ## 全体の説明
 
 - このリポジトリには、統計力学の基礎を理解するためのMATLAB®ライブスクリプトが含まれている。
-- 統計力学を初めて学ぶ学生を対象に、数値シミュレーションを通して、基本的な概念や理論の背景を理解することを目的とする。
+- 統計力学を初めて学ぶ学生を対象に、MATLABを用いた数値計算・数値シミュレーションを通して、統計力学の基本的な概念や理論の背景を理解することを目的とする。
   - 特に、初学者が統計物理学の世界にスムーズに入門できるよう、直感的な説明と演習問題を提供する。
 - このサイトの内容は、数値計算・数値シミュレーションを用いた、座学で学ぶ統計力学講義に対する補助的な位置づけとなっている。
 - 各章には、理解度確認のため、章末問題がついている。各節は、概要とライブスクリプトから構成される。
 
 ### 目次
 [マインドマップ](https://github.com/yoshy2003/StatMech_A/blob/main/Images/mindmap.png)
+- pdf で一覧表を作成する
 
 1. 準備（乱数・確率・分布・統計）
 2. カノニカル分布
@@ -58,7 +59,7 @@
 
 | 項目 | Livescript | MATLAB Online での実行 |
 | -------------- | -------------- | -------------- |
-| (1) 一様乱数の生成と頻度分布の描画  | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/uniform_random_number_histogram_lec_23.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/uniform_random_number_histogram_lec_23.mlx)  |
+| (1) [一様乱数の生成と頻度分布の描画](Livescripts/\uniform_random_number_histogram_lec_23.md)  | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/uniform_random_number_histogram_lec_23.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/uniform_random_number_histogram_lec_23.mlx)  |
 
 ---
 
@@ -305,6 +306,7 @@ Stirlingの公式 $\ln N! \approx N\ln N - N$ が用いられる。
 - 久保亮五　「統計力学」（共立出版）
 - 田崎晴明　「統計力学　Ⅰ・Ⅱ」（培風館）
 - 松下貢　「物理学講義　統計力学入門」（裳華房）
+- [その他のreferences](refs.md)
 
 ---
 
