@@ -6,7 +6,6 @@
 - 統計力学を初めて学ぶ学生を対象に、MATLABを用いた数値計算・数値シミュレーションを通して、統計力学の基本的な概念や理論の背景を理解することを目的とする。
   - 特に、初学者が統計物理学の世界にスムーズに入門できるよう、直感的な説明と演習問題を提供する。
 - このサイトの内容は、数値計算・数値シミュレーションを用いた、座学で学ぶ統計力学講義に対する補助的な位置づけとなっている。
-- 各章には、理解度確認のため、章末問題がついている。各節は、概要とライブスクリプトから構成される。
 
 ### 目次
 [マインドマップ](https://github.com/yoshy2003/StatMech_A/blob/main/Images/mindmap.png)
@@ -17,18 +16,18 @@
   - 2: <a href="#chap02">カノニカル分布</a>
   - 3: <a href="#chap03">ミクロカノニカル分布とボルツマンの関係式</a>
 - 第Ⅱ部 カノニカル分布の応用
-  - 4. 外場がはたらく系
-  - 5. 調和振動子系
-  - 6. 粒子数分布
-  - 7. グランドカノニカル分布
+  - 4: 外場がはたらく系
+  - 5: 調和振動子系
+  - 6: 粒子数分布
+  - 7: グランドカノニカル分布
 - 第Ⅲ部 量子統計
-  - 8. 量子統計の基礎
-  - 9. 量子多体系
-  - 10. フェルミ自由粒子系
-  - 11. ボーズ自由粒子系
+  - 8: 量子統計の基礎
+  - 9: 量子多体系
+  - 10: フェルミ自由粒子系
+  - 11: ボーズ自由粒子系
 - 第Ⅳ部 状態の遷移・ゆらぎ
-  - 12. ミクロな状態の遷移
-  - 13. 平衡状態のゆらぎ
+  - 12: ミクロな状態の遷移
+  - 13: 平衡状態のゆらぎ
 - 第Ⅴ部 付録
   - A. 数学的準備
   - 準備（乱数・確率・分布・統計）
@@ -56,7 +55,6 @@
 1. 概要を読み、各節の目的を確認する
 2. ライブスクリプトの内容に従って、コードを実行する
 3. ライブスクリプトにある例題に取り組む
-4. 章末の演習問題に取り組む（理解度確認）
 
 ---
 
@@ -79,13 +77,84 @@
 
 #### ===== ライブスクリプト =====
 
-| 項目 | Livescript | MATLAB Online での実行 |
+| 項目(markdownによるレビュー) | Livescript | MATLAB Online での実行 |
 | -------------- | -------------- | -------------- |
 | (1) [経験的確率と大数の法則](Livescripts/empirical_probability_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/empirical_probability_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=empirical_probability_statA_240205.mlx) |
-| (2) 基本的な種々の確率分布 | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=probabilityl_distributions_lec_v23.mlx) |
-| (2) 確率分布に従う乱数の生成 | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=binomial_distribution_lec.mlx) |
-| (3) 乱数の頻度分布に対するフィッティング | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=binomial_distribution_lec.mlx) |
-| (4) 和と積分について | 準備中 | 準備中 |
+| (2) [基本的な確率分布](Livescripts/probability_distribution_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/probability_distribution_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=probabilityl_distributions_lec_v23.mlx) |
+| (3) コイン投げ問題 | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=binomial_distribution_lec.mlx) |
+| (4) 中心極限定理 | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=binomial_distribution_lec.mlx) |
+
+
+
+---
+
+## <p id="chap02">2. カノニカル分布</p>
+
+### 2.1 コイン分配モデル
+
+#### ＊＊＊　概要　＊＊＊
+
+カノニカル分布を理解するために、コインの分配モデルを用いた系の定常状態に着目しよう。
+まず、 $M$人が $N$個のコインをやりとりする状況を想定する。
+ここでのコイン交換ルールは、 $M$人の中からランダムに2人を選び、コインを持つ者から持たない者へコインを一つ渡すというものである。
+このプロセスを繰り返すことによって、特定の人が持つコインの枚数の分布がどのように形成されるかを考える。
+
+なお物理的には、このコイン分配モデルはエネルギー量子の交換と解釈することができる。
+つまり、系全体を $M$個の部分系に分け、各部分系がコイン（エネルギー量子）を所持していると考えるわけである。
+いま、全体系のエネルギーを $A$、エネルギーの最小単位を $\varepsilon$とし、全体系に含まれる単位エネルギーの総数を $N$とする $(N = A / \varepsilon)$。
+
+このコイン分配モデルで、ある部分系（特定の人）が所持するコイン（エネルギー量子）の枚数分布を問題としよう。
+物理的には、 $N$個のエネルギー量子をランダムに交換した際に、一つの部分系に分配される単位エネルギーの数  $(E/\varepsilon = \eta)$ の確率分布 $p(\eta)$を求める問題に相当する。
+そしてこの問題は、「系」と「環境」との間でエネルギー交換が行われる際に、「系」のエネルギーが $E$となる確率 $p(E)$を求める問いとして再定義することができる。
+
+実際にこのコイン分配のルールを適用すると、コイン（エネルギー量子）の枚数のばらつきが増え、少ない枚数を持つ人の数が多くなる傾向が観察されます。
+これは、コイン交換（エネルギー量子の交換）がランダムに行われるため、所持するコインの枚数が少ない状態が出現しやすくなることを意味します。
+これはミクロな状態が同じ確率で出現するという等重率の原理に対応しており、最終的なコイン分布（エネルギー分布）は指数分布となります。
+
+#### ＊＊＊　ライブスクリプト　＊＊＊
+
+| 項目 | リンク |
+| -------------- | -------------- |
+| (1) コイン分配モデルとカノニカル分布  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Coin_canonical.mlx)|
+
+---
+
+### 2.2 コイン交換モデル
+
+#### ＊＊＊　概要　＊＊＊
+
+このセクションでは、ボルツマンの関係式の物理的意味と熱力学との関連を、コイン交換モデルを用いて説明する。
+コイン交換モデルでは、2つの系AとBが存在し、それぞれの系にあるコインを交換するプロセスを考慮する。
+物理的には、この設定は2つの系AとBが熱的に接触し、エネルギーをやり取りしている状況に相当する。
+このエネルギー交換は、ランダムなコイン交換でモデル化されている。
+初期状態では、系Aのコインは全て表でエネルギーが $+N$、系Bのコインは全て裏でエネルギーが $-N$となっている。
+この状態から、それぞれの系からランダムにコインを選び、得点を交換していき、コイン交換を繰り返すと、各系のエネルギーは急速に0に近づき、その後は0の周りでランダムに揺らぐことが分かる。
+なお、熱力学的には、この交換モデルは、系全体のエネルギーが変化しない孤立系としてモデル化されている。
+さらに、非平衡状態から平衡状態への緩和現象についても考える。
+特にコイン枚数が大きい場合、マクロな状態変化はなめらかに見なせ、ランダムなミクロ状態変化にもかかわらず、マクロな状態変化を連続的に記述できることが示唆される。
+
+
+#### ＊＊＊　ライブスクリプト　＊＊＊
+
+| 項目 | リンク |
+| -------------- | -------------- |
+| (1) コイン交換モデルと平衡状態  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Coin_exchange_23.mlx)|
+| (2) コイン交換モデルによる緩和過程  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=coin_exchange_lec_21v1.mlx)|
+
+---
+
+### 章末演習問題（2．カノニカル分布）
+
+| 項目 | リンク |
+| -------------- | -------------- |
+|(1) ＊＊＊ | 準備中 |
+
+---
+
+## <p id="chap03">3. ミクロカノニカル分布とボルツマンの関係式</p>
+
+
+
 
 
 ---
@@ -163,73 +232,6 @@ Stirlingの公式 $\ln N! \approx N\ln N - N$ が用いられる。
 | -------------- | -------------- |
 |(1) ＊＊＊ | 準備中 |
 
-
----
-
-## <p id="chap02">2. カノニカル分布</p>
-
-### 2.1 コイン分配モデル
-
-#### ＊＊＊　概要　＊＊＊
-
-カノニカル分布を理解するために、コインの分配モデルを用いた系の定常状態に着目しよう。
-まず、 $M$人が $N$個のコインをやりとりする状況を想定する。
-ここでのコイン交換ルールは、 $M$人の中からランダムに2人を選び、コインを持つ者から持たない者へコインを一つ渡すというものである。
-このプロセスを繰り返すことによって、特定の人が持つコインの枚数の分布がどのように形成されるかを考える。
-
-なお物理的には、このコイン分配モデルはエネルギー量子の交換と解釈することができる。
-つまり、系全体を $M$個の部分系に分け、各部分系がコイン（エネルギー量子）を所持していると考えるわけである。
-いま、全体系のエネルギーを $A$、エネルギーの最小単位を $\varepsilon$とし、全体系に含まれる単位エネルギーの総数を $N$とする $(N = A / \varepsilon)$。
-
-このコイン分配モデルで、ある部分系（特定の人）が所持するコイン（エネルギー量子）の枚数分布を問題としよう。
-物理的には、 $N$個のエネルギー量子をランダムに交換した際に、一つの部分系に分配される単位エネルギーの数  $(E/\varepsilon = \eta)$ の確率分布 $p(\eta)$を求める問題に相当する。
-そしてこの問題は、「系」と「環境」との間でエネルギー交換が行われる際に、「系」のエネルギーが $E$となる確率 $p(E)$を求める問いとして再定義することができる。
-
-実際にこのコイン分配のルールを適用すると、コイン（エネルギー量子）の枚数のばらつきが増え、少ない枚数を持つ人の数が多くなる傾向が観察されます。
-これは、コイン交換（エネルギー量子の交換）がランダムに行われるため、所持するコインの枚数が少ない状態が出現しやすくなることを意味します。
-これはミクロな状態が同じ確率で出現するという等重率の原理に対応しており、最終的なコイン分布（エネルギー分布）は指数分布となります。
-
-#### ＊＊＊　ライブスクリプト　＊＊＊
-
-| 項目 | リンク |
-| -------------- | -------------- |
-| (1) コイン分配モデルとカノニカル分布  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Coin_canonical.mlx)|
-
----
-
-### 2.2 コイン交換モデル
-
-#### ＊＊＊　概要　＊＊＊
-
-このセクションでは、ボルツマンの関係式の物理的意味と熱力学との関連を、コイン交換モデルを用いて説明する。
-コイン交換モデルでは、2つの系AとBが存在し、それぞれの系にあるコインを交換するプロセスを考慮する。
-物理的には、この設定は2つの系AとBが熱的に接触し、エネルギーをやり取りしている状況に相当する。
-このエネルギー交換は、ランダムなコイン交換でモデル化されている。
-初期状態では、系Aのコインは全て表でエネルギーが $+N$、系Bのコインは全て裏でエネルギーが $-N$となっている。
-この状態から、それぞれの系からランダムにコインを選び、得点を交換していき、コイン交換を繰り返すと、各系のエネルギーは急速に0に近づき、その後は0の周りでランダムに揺らぐことが分かる。
-なお、熱力学的には、この交換モデルは、系全体のエネルギーが変化しない孤立系としてモデル化されている。
-さらに、非平衡状態から平衡状態への緩和現象についても考える。
-特にコイン枚数が大きい場合、マクロな状態変化はなめらかに見なせ、ランダムなミクロ状態変化にもかかわらず、マクロな状態変化を連続的に記述できることが示唆される。
-
-
-#### ＊＊＊　ライブスクリプト　＊＊＊
-
-| 項目 | リンク |
-| -------------- | -------------- |
-| (1) コイン交換モデルと平衡状態  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Coin_exchange_23.mlx)|
-| (2) コイン交換モデルによる緩和過程  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=coin_exchange_lec_21v1.mlx)|
-
----
-
-### 章末演習問題（2．カノニカル分布）
-
-| 項目 | リンク |
-| -------------- | -------------- |
-|(1) ＊＊＊ | 準備中 |
-
----
-
-## <p id="chap03">3. ミクロカノニカル分布とボルツマンの関係式</p>
 
 
 ## 4. ミクロな状態遷移とゆらぎ
