@@ -82,7 +82,7 @@
 | (1) [経験的確率と大数の法則](Livescripts/empirical_probability_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/empirical_probability_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=empirical_probability_statA_240205.mlx) |
 | (2) [基本的な確率分布](Livescripts/probability_distribution_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/probability_distribution_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=probabilityl_distributions_lec_v23.mlx) |
 | (3) コイン投げ問題 | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=binomial_distribution_lec.mlx) |
-| (4) 中心極限定理 | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=binomial_distribution_lec.mlx) |
+| (4) [中心極限定理](Livescripts/central_limit_theorem_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/central_limit_theorem_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=central_limit_theorem_statA_240205.mlx) |
 
 
 

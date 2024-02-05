@@ -57,7 +57,9 @@
 例として、下限 $-3$ 、上限 $+5$ の連続一様分布オブジェクトを作成する。
 
 ```matlab
-pd1 = makedist("Uniform", lower=-4, upper=5);
+xl = -3;
+xu = 5;
+pd1 = makedist("Uniform", lower=xl, upper=xu);
 ```
 <a name="H_D518924A"></a>
 ## 分布の描画
@@ -67,13 +69,13 @@ pd1 = makedist("Uniform", lower=-4, upper=5);
 
 ```matlab
 x = -10:0.01:10;
-plot(x, pdf(pd1, x))
+    plot(x, pdf(pd1, x), 'b-', LineWidth=1.5, DisplayName="uniform")
 hold on
     pd1_m = mean(pd1)
 ```
 
 ```TextOutput
-pd1_m = 0.5000
+pd1_m = 1
 ```
 
 ```matlab
@@ -81,17 +83,18 @@ pd1_m = 0.5000
 ```
 
 ```TextOutput
-pd1_s = 2.5981
+pd1_s = 2.3094
 ```
 
 ```matlab
-    xline(pd1_m, 'r--')
-    xline(pd1_m + pd1_s, 'g--')
-    xline(pd1_m - pd1_s, 'g--')
+    xline(pd1_m, 'r--', LineWidth=1, DisplayName=" !!!EQ_5!!! ")
+    xline(pd1_m + pd1_s, 'k--', LineWidth=1, DisplayName=" !!!EQ_6!!! ")
+    xline(pd1_m - pd1_s, 'k--', LineWidth=1, DisplayName=" !!!EQ_6!!! ")
 hold off
 title('pdf of uniform distribution', Interpreter='latex', FontSize=15)
-xlabel(" !!!EQ_5!!! ", Interpreter="latex", FontSize=13)
-ylabel(" !!!EQ_6!!! ", Interpreter="latex", FontSize=13)
+xlabel(" !!!EQ_8!!! ", Interpreter="latex", FontSize=13)
+ylabel(" !!!EQ_9!!! ", Interpreter="latex", FontSize=13)
+legend(Interpreter="latex", Location="southwest")
 ```
 
 <center><img src="probability_distribution_statA_240205_media/figure_0.png" width="562" alt="figure_0.png"></center>
@@ -99,10 +102,10 @@ ylabel(" !!!EQ_6!!! ", Interpreter="latex", FontSize=13)
 
 ```matlab
 
-plot(x, cdf(pd1, x))
+plot(x, cdf(pd1, x), 'b-', LineWidth=1.5)
 title('cdf of uniform distribution', Interpreter='latex', FontSize=15)
-xlabel(" !!!EQ_5!!! ", Interpreter="latex", FontSize=13)
-ylabel(" !!!EQ_8!!! ", Interpreter="latex", FontSize=13)
+xlabel(" !!!EQ_8!!! ", Interpreter="latex", FontSize=13)
+ylabel(" !!!EQ_11!!! ", Interpreter="latex", FontSize=13)
 ```
 
 <center><img src="probability_distribution_statA_240205_media/figure_1.png" width="562" alt="figure_1.png"></center>
@@ -113,10 +116,13 @@ ylabel(" !!!EQ_8!!! ", Interpreter="latex", FontSize=13)
 ## 乱数の生成
 <a name="H_DD406E82"></a>
 
-乱数を生成し、ヒストグラムを描画する
+一様分布に従う乱数を10000個生成し、ヒストグラムを描画する
 
 ```matlab
-histogram(random(pd1,[1 1000]))
+histogram(random(pd1,[1 10000]), 20)
+title('histogram of uniform random numbers', Interpreter='latex', FontSize=15)
+xlabel(" $x$ ", Interpreter="latex", FontSize=13)
+ylabel("frequency", Interpreter="latex", FontSize=13)
 ```
 
 <center><img src="probability_distribution_statA_240205_media/figure_2.png" width="562" alt="figure_2.png"></center>
@@ -129,7 +135,8 @@ histogram(random(pd1,[1 1000]))
 例として、平均 1.7 の指数分布オブジェクトを作成する。
 
 ```matlab
-pd2 = makedist("Exponential", mu=1.7);
+mu = 1.7;
+pd2 = makedist("Exponential", mu);
 ```
 <a name="H_78792AA8"></a>
 ## 分布の描画
@@ -139,7 +146,7 @@ pd2 = makedist("Exponential", mu=1.7);
 
 ```matlab
 x = 0:0.01:10;
-plot(x, pdf(pd2, x))
+plot(x, pdf(pd2, x), 'b-', LineWidth=1.5, DisplayName=" $\mu =$ "+string(mu))
 hold on
     pd2_m = mean(pd2)
 ```
@@ -157,13 +164,14 @@ pd2_s = 1.7000
 ```
 
 ```matlab
-    xline(pd2_m, 'r--')
-    xline(pd2_m + pd2_s, 'g--')
-    xline(pd2_m - pd2_s, 'g--')
+    xline(pd2_m, 'r--', LineWidth=1, DisplayName=" !!!EQ_5!!! ")
+    xline(pd2_m + pd2_s, 'm--', LineWidth=1, DisplayName=" !!!EQ_6!!! ")
+    xline(pd2_m - pd2_s, 'c--', LineWidth=1, DisplayName=" !!!EQ_18!!! ")
 hold off
 title('pdf of exponential distribution', Interpreter='latex', FontSize=15)
-xlabel(" !!!EQ_5!!! ", Interpreter="latex", FontSize=13)
-ylabel(" !!!EQ_6!!! ", Interpreter="latex", FontSize=13)
+xlabel(" !!!EQ_8!!! ", Interpreter="latex", FontSize=13)
+ylabel(" !!!EQ_9!!! ", Interpreter="latex", FontSize=13)
+legend(Interpreter="latex")
 ```
 
 <center><img src="probability_distribution_statA_240205_media/figure_3.png" width="562" alt="figure_3.png"></center>
@@ -171,10 +179,11 @@ ylabel(" !!!EQ_6!!! ", Interpreter="latex", FontSize=13)
 
 ```matlab
 
-plot(x, cdf(pd2, x))
+plot(x, cdf(pd2, x), 'b-', LineWidth=1.5, DisplayName=" !!!EQ_15!!! "+string(mu))
 title('cdf of exponential distribution', Interpreter='latex', FontSize=15)
-xlabel(" !!!EQ_5!!! ", Interpreter="latex", FontSize=13)
-ylabel(" !!!EQ_8!!! ", Interpreter="latex", FontSize=13)
+xlabel(" !!!EQ_8!!! ", Interpreter="latex", FontSize=13)
+ylabel(" !!!EQ_11!!! ", Interpreter="latex", FontSize=13)
+legend(Interpreter="latex", Location="southeast")
 ```
 
 <center><img src="probability_distribution_statA_240205_media/figure_4.png" width="562" alt="figure_4.png"></center>
@@ -188,31 +197,21 @@ ylabel(" !!!EQ_8!!! ", Interpreter="latex", FontSize=13)
 乱数を生成し、ヒストグラムを描画する
 
 ```matlab
-rd2 = random(pd2,[1 1000])
-```
-
-```TextOutput
-rd2 = 1x1000    
-    0.2437    0.2620    3.8315    0.3468    0.7781    1.4436    1.0693    1.1215    0.9996    0.7206    0.2261    0.6882    2.5052    3.2356    1.4807    1.3627    0.3102    1.9166    1.1876    4.6345    1.6380    3.6151    1.0388    3.2250    0.7689    0.2457    1.4113    0.5708    1.8623    3.9440    0.1623    0.4053    0.0337    8.1615    2.1137    0.4172    0.1025    0.1833    3.6291    2.3150    0.2221    0.8732    2.7934    0.2664    2.4054    0.6343    1.1252    0.1999    0.1484    0.6290
-```
-
-```matlab
-histfit(rd2, 30,"exponential")
+rd2 = random(pd2,[1 1000]);
+f2 = fitdist(rd2',"exponential");
+h2 = histfit(rd2, 30,"exponential");
+h22 = h2(2);
+set(h22, DisplayName=" $\mu =$ "+string(f2.mu))
+title('histogram of exponential random numbers', Interpreter='latex', FontSize=15)
+xlabel(" $x$ ", Interpreter="latex", FontSize=13)
+ylabel("frequency", Interpreter="latex", FontSize=13)
+legend(h22, Interpreter="latex")
 ```
 
 <center><img src="probability_distribution_statA_240205_media/figure_5.png" width="562" alt="figure_5.png"></center>
 
 
-```matlab
-fitdist(rd2',"exponential")
-```
 
-```TextOutput
-ans = 
-  ExponentialDistribution
-  指数 分布
-    mu = 1.76639   [1.66182, 1.88119]
-```
 <a name="H_6A6D0036"></a>
 # 3．二項分布
 <a name="H_5B3758FE"></a>
@@ -221,7 +220,9 @@ ans =
 例として、 $N=100$ 、 $p=0.35$ の二項分布オブジェクトを作成する。
 
 ```matlab
-pd3 = makedist("Binomial", "N",100, "p",0.35);
+N3 = 100;
+p3 = 0.35;
+pd3 = makedist("Binomial", "N", N3, "p", p3);
 ```
 <a name="H_4AA3F57D"></a>
 ## 分布の描画
@@ -231,31 +232,18 @@ pd3 = makedist("Binomial", "N",100, "p",0.35);
 
 ```matlab
 x = 0:1:100;
-plot(x, pdf(pd3, x), 'o-')
+plot(x, pdf(pd3, x), 'bo-', LineWidth=1, DisplayName=" $N =$ "+string(N3)+", $p =$ "+string(p3))
 hold on
-    pd3_m = mean(pd3)
-```
-
-```TextOutput
-pd3_m = 35
-```
-
-```matlab
-    pd3_s = std(pd3)
-```
-
-```TextOutput
-pd3_s = 4.7697
-```
-
-```matlab
-    xline(pd3_m, 'r--')
-    xline(pd3_m + pd3_s, 'g--')
-    xline(pd3_m - pd3_s, 'g--')
+    pd3_m = mean(pd3);
+    pd3_s = std(pd3);
+    xline(pd3_m, 'r--', LineWidth=1, DisplayName=" $x = \mu$ ")
+    xline(pd3_m + pd3_s, 'm--', LineWidth=1, DisplayName=" $x = \mu + \sigma$ ")
+    xline(pd3_m - pd3_s, 'c--', LineWidth=1, DisplayName=" $x = \mu + \sigma$ ")
 hold off
 title('pdf of binomial distribution', Interpreter='latex', FontSize=15)
-xlabel(" !!!EQ_5!!! ", Interpreter="latex", FontSize=13)
-ylabel(" !!!EQ_6!!! ", Interpreter="latex", FontSize=13)
+xlabel(" $x$ ", Interpreter="latex", FontSize=13)
+ylabel(" $p(x)$ ", Interpreter="latex", FontSize=13)
+legend(Interpreter="latex")
 ```
 
 <center><img src="probability_distribution_statA_240205_media/figure_6.png" width="562" alt="figure_6.png"></center>
@@ -263,10 +251,10 @@ ylabel(" !!!EQ_6!!! ", Interpreter="latex", FontSize=13)
 
 ```matlab
 
-plot(x, cdf(pd2, x), 'o-')
+plot(x, cdf(pd3, x), 'bo-', LineWidth=1)
 title('cdf of binomial distribution', Interpreter='latex', FontSize=15)
-xlabel(" !!!EQ_5!!! ", Interpreter="latex", FontSize=13)
-ylabel(" !!!EQ_8!!! ", Interpreter="latex", FontSize=13)
+xlabel(" !!!EQ_8!!! ", Interpreter="latex", FontSize=13)
+ylabel(" !!!EQ_11!!! ", Interpreter="latex", FontSize=13)
 ```
 
 <center><img src="probability_distribution_statA_240205_media/figure_7.png" width="562" alt="figure_7.png"></center>
@@ -278,32 +266,21 @@ ylabel(" !!!EQ_8!!! ", Interpreter="latex", FontSize=13)
 乱数を生成し、ヒストグラムを描画する
 
 ```matlab
-rd3 = random(pd3,[1 1000])
-```
-
-```TextOutput
-rd3 = 1x1000    
-    36    37    40    27    33    41    34    41    34    32    42    33    33    36    38    33    36    35    37    37    31    41    35    36    47    29    36    31    31    34    41    34    32    42    39    31    39    38    35    39    35    30    28    38    29    39    29    31    30    34
-```
-
-```matlab
-histfit(rd3, 30,"normal")
+rd3 = random(pd3,[1 1000]);
+f3 = fitdist(rd3',"normal");
+h3 = histfit(rd3, 30,"normal");
+h32 = h3(2);
+set(h32, DisplayName=" $\mu =$ "+string(f3.mu))
+title('histogram of binomial random numbers', Interpreter='latex', FontSize=15)
+xlabel(" $x$ ", Interpreter="latex", FontSize=13)
+ylabel("frequency", Interpreter="latex", FontSize=13)
+legend(h32, Interpreter="latex")
 ```
 
 <center><img src="probability_distribution_statA_240205_media/figure_8.png" width="562" alt="figure_8.png"></center>
 
 
-```matlab
-fitdist(rd3',"normal")
-```
 
-```TextOutput
-ans = 
-  NormalDistribution
-  正規 分布
-       mu =  35.086   [34.8003, 35.3717]
-    sigma = 4.60389   [4.41058, 4.81505]
-```
 <a name="H_F4C44D8E"></a>
 # 4．正規分布（ガウス分布）
 <a name="H_FF1A670C"></a>
@@ -345,8 +322,8 @@ pd4_s = 2.1000
     xline(pd4_m - pd4_s, 'g--')
 hold off
 title('pdf of normal distribution', Interpreter='latex', FontSize=15)
-xlabel(" !!!EQ_5!!! ", Interpreter="latex", FontSize=13)
-ylabel(" !!!EQ_6!!! ", Interpreter="latex", FontSize=13)
+xlabel(" !!!EQ_8!!! ", Interpreter="latex", FontSize=13)
+ylabel(" !!!EQ_9!!! ", Interpreter="latex", FontSize=13)
 ```
 
 <center><img src="probability_distribution_statA_240205_media/figure_9.png" width="562" alt="figure_9.png"></center>
@@ -356,8 +333,8 @@ ylabel(" !!!EQ_6!!! ", Interpreter="latex", FontSize=13)
 
 plot(x, cdf(pd4, x), '-')
 title('cdf of normal distribution', Interpreter='latex', FontSize=15)
-xlabel(" !!!EQ_5!!! ", Interpreter="latex", FontSize=13)
-ylabel(" !!!EQ_8!!! ", Interpreter="latex", FontSize=13)
+xlabel(" !!!EQ_8!!! ", Interpreter="latex", FontSize=13)
+ylabel(" !!!EQ_11!!! ", Interpreter="latex", FontSize=13)
 ```
 
 <center><img src="probability_distribution_statA_240205_media/figure_10.png" width="562" alt="figure_10.png"></center>
