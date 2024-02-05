@@ -55,7 +55,7 @@ ylim([0 1/3])
 legend()
 ```
 
-<center><img src="empirical_probability_lec_240205_media/figure_0.png" width="562" alt="figure_0.png"></center>
+<center><img src="empirical_probability_statA_240205_media/figure_0.png" width="562" alt="figure_0.png"></center>
 
 
 
@@ -76,7 +76,7 @@ ylabel(' $\left(r-\frac{1}{6}\right)^{2}$ ', Interpreter='latex', FontSize=14)
 ylim([1e-6 1])
 ```
 
-<center><img src="empirical_probability_lec_240205_media/figure_1.png" width="562" alt="figure_1.png"></center>
+<center><img src="empirical_probability_statA_240205_media/figure_1.png" width="562" alt="figure_1.png"></center>
 
 
 
@@ -99,7 +99,7 @@ ylabel(' $\left\langle r \right\rangle$ ', Interpreter='latex', FontSize=14)
 ylim([0 1/3])
 ```
 
-<center><img src="empirical_probability_lec_240205_media/figure_2.png" width="562" alt="figure_2.png"></center>
+<center><img src="empirical_probability_statA_240205_media/figure_2.png" width="562" alt="figure_2.png"></center>
 
 
 ```matlab
@@ -114,7 +114,7 @@ ylabel(' !!!EQ_20!!! ', Interpreter='latex', FontSize=14)
 ylim([1e-6 1])
 ```
 
-<center><img src="empirical_probability_lec_240205_media/figure_3.png" width="562" alt="figure_3.png"></center>
+<center><img src="empirical_probability_statA_240205_media/figure_3.png" width="562" alt="figure_3.png"></center>
 
 
 
