@@ -12,9 +12,9 @@
 - pdf で一覧表を作成する
 
 - 第Ⅰ部 基礎
-  - 1: <a href="#chap01">確率分布</a>
-  - 2: <a href="#chap02">カノニカル分布</a>
-  - 3: <a href="#chap03">ミクロカノニカル分布とボルツマンの関係式</a>
+  - 第１章 <a href="#chap01">確率分布</a>
+  - 第２章 <a href="#chap02">カノニカル分布</a>
+  - 第３章 <a href="#chap03">ミクロカノニカル分布とボルツマンの関係式</a>
 - 第Ⅱ部 カノニカル分布の応用
   - 4: 外場がはたらく系
   - 5: 調和振動子系
@@ -58,12 +58,12 @@
 
 ---
 
-## <p id="chap01">1. 確率分布</p>
+## <p id="chap01">第１章： 確率分布</p>
 
 #### ===== 概要 =====
 
 - 統計力学において基本的な以下の確率分布を紹介する。
-  - 指数分布・二項分布・正規分布
+  - 一様分布・指数分布・二項分布・ポアソン分布・正規分布
 - 乱数は等確率に生成される（一様乱数の場合）だけでなく、特定の確率分布に従うように生成することもできる。
   - 例えば、1次元ランダムウォークの結果として得られる位置を再現したい場合には、二項分布または正規分布に従った乱数を生成することになる。
   - MATLABには一様乱数や正規乱数を生成する関数が標準で提供されており、これらを利用して乱数列を生成することができる。
@@ -80,16 +80,17 @@
 | 項目(markdownによるレビュー) | Livescript | MATLAB Online での実行 |
 | -------------- | -------------- | -------------- |
 | (1) [経験的確率と大数の法則](Livescripts/empirical_probability_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/empirical_probability_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=empirical_probability_statA_240205.mlx) |
-| (2) [基本的な確率分布](Livescripts/probability_distribution_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/probability_distribution_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=probabilityl_distributions_lec_v23.mlx) |
-| (3) コイン投げと大数の法則 | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=binomial_distribution_lec.mlx) |
-| (4) 二項分布から正規分布へ | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=binomial_distribution_lec.mlx) |
-| (5) [中心極限定理の確認](Livescripts/central_limit_theorem_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/central_limit_theorem_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=central_limit_theorem_statA_240205.mlx) |
+| (2) [離散分布に対する近似的な連続表現](Livescripts/approx_dis_con.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/approx_dis_con.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=approx_dis_con.mlx) |
+| (3) [基本的な確率分布](Livescripts/probability_distribution_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/probability_distribution_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=probabilityl_distributions_lec_v23.mlx) |
+| (4) コイン投げと大数の法則 | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=binomial_distribution_lec.mlx) |
+| (5) 二項分布から正規分布へ | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=binomial_distribution_lec.mlx) |
+| (6) [中心極限定理の確認](Livescripts/central_limit_theorem_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/central_limit_theorem_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=central_limit_theorem_statA_240205.mlx) |
 
 
 
 ---
 
-## <p id="chap02">2. カノニカル分布</p>
+## <p id="chap02">第２章： カノニカル分布</p>
 
 ### 2.1 コイン分配モデル
 
@@ -152,7 +153,7 @@
 
 ---
 
-## <p id="chap03">3. ミクロカノニカル分布とボルツマンの関係式</p>
+## <p id="chap03">第３章： ミクロカノニカル分布とボルツマンの関係式</p>
 
 
 
