@@ -26,11 +26,11 @@
   - 第１０章 フェルミ自由粒子系
   - 第１１章 ボーズ自由粒子系
 - 第Ⅳ部 状態の遷移・ゆらぎ
-  - 第１２章 ミクロな状態の遷移
+  - 第１２章 <a href="#chap12">ミクロな状態の遷移</a>
   - 第１３章 平衡状態のゆらぎ
 - 第Ⅴ部 付録
-  - A. 数学的準備
-  - 準備（乱数・確率・分布・統計）
+  - A. <a href="#appA">数学的準備</a>
+  - B. <a href="#appB">その他（関連内容）</a>
 
 （2024年02月現在。内容は随時、追加・更新されます。）
 
@@ -79,12 +79,11 @@
 
 | 項目(markdownによるレビュー) | Livescript | MATLAB Online での実行 |
 | -------------- | -------------- | -------------- |
-| (1) [経験的確率と大数の法則](Livescripts/empirical_probability_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/empirical_probability_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=empirical_probability_statA_240205.mlx) |
-| (2) [離散分布に対する近似的な連続表現](Livescripts/approx_dis_con.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/approx_dis_con.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=approx_dis_con.mlx) |
-| (3) [基本的な確率分布](Livescripts/probability_distribution_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/probability_distribution_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=probabilityl_distributions_lec_v23.mlx) |
-| (4) コイン投げと大数の法則 | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=binomial_distribution_lec.mlx) |
-| (5) 二項分布から正規分布へ | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=binomial_distribution_lec.mlx) |
-| (6) [中心極限定理の確認](Livescripts/central_limit_theorem_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/central_limit_theorem_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=central_limit_theorem_statA_240205.mlx) |
+| (1) [経験的確率と大数の法則](Livescripts/empirical_probability_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/empirical_probability_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/empirical_probability_statA_240205.mlx) |
+| (2) [基本的な確率分布](Livescripts/probability_distribution_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/probability_distribution_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/probabilityl_distributions_lec_v23.mlx) |
+| (3) コイン投げと大数の法則 | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/binomial_distribution_lec.mlx) |
+| (4) 二項分布から正規分布へ | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/binomial_distribution_lec.mlx) |
+| (5) [中心極限定理の確認](Livescripts/central_limit_theorem_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/central_limit_theorem_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/central_limit_theorem_statA_240205.mlx) |
 
 
 
@@ -92,111 +91,93 @@
 
 ## <p id="chap02">第２章： カノニカル分布</p>
 
-### 2.1 コイン分配モデル
+#### ===== 概要 =====
 
-#### ＊＊＊　概要　＊＊＊
-
-カノニカル分布を理解するために、コインの分配モデルを用いた系の定常状態に着目しよう。
-まず、 $M$人が $N$個のコインをやりとりする状況を想定する。
-ここでのコイン交換ルールは、 $M$人の中からランダムに2人を選び、コインを持つ者から持たない者へコインを一つ渡すというものである。
-このプロセスを繰り返すことによって、特定の人が持つコインの枚数の分布がどのように形成されるかを考える。
-
-なお物理的には、このコイン分配モデルはエネルギー量子の交換と解釈することができる。
-つまり、系全体を $M$個の部分系に分け、各部分系がコイン（エネルギー量子）を所持していると考えるわけである。
-いま、全体系のエネルギーを $A$、エネルギーの最小単位を $\varepsilon$とし、全体系に含まれる単位エネルギーの総数を $N$とする $(N = A / \varepsilon)$。
-
-このコイン分配モデルで、ある部分系（特定の人）が所持するコイン（エネルギー量子）の枚数分布を問題としよう。
-物理的には、 $N$個のエネルギー量子をランダムに交換した際に、一つの部分系に分配される単位エネルギーの数  $(E/\varepsilon = \eta)$ の確率分布 $p(\eta)$を求める問題に相当する。
-そしてこの問題は、「系」と「環境」との間でエネルギー交換が行われる際に、「系」のエネルギーが $E$となる確率 $p(E)$を求める問いとして再定義することができる。
-
-実際にこのコイン分配のルールを適用すると、コイン（エネルギー量子）の枚数のばらつきが増え、少ない枚数を持つ人の数が多くなる傾向が観察されます。
-これは、コイン交換（エネルギー量子の交換）がランダムに行われるため、所持するコインの枚数が少ない状態が出現しやすくなることを意味します。
-これはミクロな状態が同じ確率で出現するという等重率の原理に対応しており、最終的なコイン分布（エネルギー分布）は指数分布となります。
-
-#### ＊＊＊　ライブスクリプト　＊＊＊
-
-| 項目 | リンク |
-| -------------- | -------------- |
-| (1) コイン分配モデルとカノニカル分布  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Coin_canonical.mlx)|
-
----
-
-### 2.2 コイン交換モデル
-
-#### ＊＊＊　概要　＊＊＊
-
-このセクションでは、ボルツマンの関係式の物理的意味と熱力学との関連を、コイン交換モデルを用いて説明する。
-コイン交換モデルでは、2つの系AとBが存在し、それぞれの系にあるコインを交換するプロセスを考慮する。
-物理的には、この設定は2つの系AとBが熱的に接触し、エネルギーをやり取りしている状況に相当する。
-このエネルギー交換は、ランダムなコイン交換でモデル化されている。
-初期状態では、系Aのコインは全て表でエネルギーが $+N$、系Bのコインは全て裏でエネルギーが $-N$となっている。
-この状態から、それぞれの系からランダムにコインを選び、得点を交換していき、コイン交換を繰り返すと、各系のエネルギーは急速に0に近づき、その後は0の周りでランダムに揺らぐことが分かる。
-なお、熱力学的には、この交換モデルは、系全体のエネルギーが変化しない孤立系としてモデル化されている。
-さらに、非平衡状態から平衡状態への緩和現象についても考える。
-特にコイン枚数が大きい場合、マクロな状態変化はなめらかに見なせ、ランダムなミクロ状態変化にもかかわらず、マクロな状態変化を連続的に記述できることが示唆される。
+- カノニカル分布を理解するために、コインの分配モデルを用いた系の定常状態に着目しよう。
 
 
-#### ＊＊＊　ライブスクリプト　＊＊＊
+#### ===== ライブスクリプト =====
 
-| 項目 | リンク |
-| -------------- | -------------- |
-| (1) コイン交換モデルと平衡状態  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Coin_exchange_23.mlx)|
-| (2) コイン交換モデルによる緩和過程  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=coin_exchange_lec_21v1.mlx)|
+| 項目(markdownによるレビュー) | Livescript | MATLAB Online での実行 |
+| -------------- | -------------- | -------------- |
+| (1) コイン分配モデルとカノニカル分布  | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Coin_canonical.mlx)|
+| (1) コイン交換モデルと平衡状態  | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Coin_exchange_23.mlx)|
+| (2) コイン交換モデルによる緩和過程 | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=coin_exchange_lec_21v1.mlx)|
 
----
 
-### 章末演習問題（2．カノニカル分布）
-
-| 項目 | リンク |
-| -------------- | -------------- |
-|(1) ＊＊＊ | 準備中 |
 
 ---
 
 ## <p id="chap03">第３章： ミクロカノニカル分布とボルツマンの関係式</p>
 
+#### ===== 概要 =====
 
+- カノニカル分布を理解するために、コインの分配モデルを用いた系の定常状態に着目しよう。
+
+
+#### ===== ライブスクリプト =====
+
+| 項目(markdownによるレビュー) | Livescript | MATLAB Online での実行 |
+| -------------- | -------------- | -------------- |
+
+
+---
+
+## <p id="chap12">第１２章： ミクロな状態遷移とゆらぎ</p>
+
+#### ===== 概要 =====
+
+- カノニカル分布を理解するために、コインの分配モデルを用いた系の定常状態に着目しよう。
+ミクロな状態の遷移に基づいて平衡状態の実現を考察するため、ここでは、1次元理想気体のモデルを例とする。
+実際、以下のような問題を設定しよう。
+いま、系内には $N$個の粒子が存在し、初期状態では全粒子が同一の速度 $v_0$を持っているとする、
+この系が温度 $T$の熱浴に接している状況を考え、系がどのように平衡状態に緩和するかを調べる。
+特に、平衡状態における粒子の速度分布に着目しよう。
+統計力学に基づけば、平衡状態での速度分布はマクスウェル分布に従うことになる。
+初期条件では、速度分布は $v = v_0$でデルタ関数となっているが、このデルタ関数的な分布が、どのようにマクスウェル分布へと緩和していくかを観察する。
+
+
+#### ===== ライブスクリプト =====
+
+| 項目(markdownによるレビュー) | Livescript | MATLAB Online での実行 |
+| -------------- | -------------- | -------------- |
+| (1) 詳細つりあいと平衡状態  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/Detailed_balance_21v1.mlx)  |
+| (1) ２準位系  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/Detailed_balance_21v1.mlx)  |
+| (2) イジングモデル  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/Detailed_balance_21v1.mlx)  |
 
 
 
 ---
 
-### 1.1 乱数生成と分布の描画
+## <p id="appA">付録Ａ： 数学的準備</p>
 
 #### ===== 概要 =====
 
-- 乱数（random number）は、ランダム選択された数値を指す。
-- 生成された乱数列の頻度分布を可視化するために、ヒストグラムを描画する関数を利用することができる。
-- 計算機上で完全なランダム性を有する乱数生成を実現することは困難であるため、線形合同法やメルセンヌ・ツイスター法として知られる疑似乱数生成アルゴリズムに基づき生成された乱数が使用される。
-  - [MATLABでは、メルセンヌ・ツイスター法がデフォルトとなっている。](https://jp.mathworks.com/matlabcentral/answers/223373-)
+
 
 #### ===== ライブスクリプト =====
 
-| 項目 | Livescript | MATLAB Online での実行 |
+| 項目(markdownによるレビュー) | Livescript | MATLAB Online での実行 |
+| -------------- | -------------- | -------------- |
+| (1) [離散分布に対する近似的な連続表現](Livescripts/approx_dis_con.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/approx_dis_con.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/approx_dis_con.mlx) |
+|(2) [スターリングの公式：証明と近似精度](Livescripts/Stirling_formula_statA_240207.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/Stirling_formula_statA_240207.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Stirling_formula_statA_240207.mlx)|
+
+
+---
+
+## <p id="appB">付録Ｂ： その他</p>
+
+#### ===== 概要 =====
+
+
+
+#### ===== ライブスクリプト =====
+
+| 項目(markdownによるレビュー) | Livescript | MATLAB Online での実行 |
 | -------------- | -------------- | -------------- |
 | (1) [一様乱数の生成と頻度分布の描画](Livescripts/uniform_random_number_histogram_lec_23.md)  | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/uniform_random_number_histogram_lec_23.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/uniform_random_number_histogram_lec_23.mlx)  |
+| (2) ランダムウォークと拡散  | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/random_walk_lec_21v1.mlx)  |
 
----
-
-### 1.3 スターリングの公式
-
-#### ===== 概要 =====
-
-- 統計力学では、階乗 $N!$に対して指数関数による近似を行う際に、<br>
-Stirlingの公式 $\ln N! \approx N\ln N - N$ が用いられる。
-- ここでは、 Stirlingの公式を視覚的に理解する
-- また、$N$が大きくなるにつれて、近似の精度がどのように変化するかを把握する
-- スターリングの利用例として、二項分布から正規分布の導出を行う
-<img width="300" src="./Images/Stirling_1.png" style="margin:10px" >
-
-#### ===== ライブスクリプト =====
-
-| 項目 | リンク |
-| -------------- | -------------- |
-|(1) スターリングの公式：証明と近似精度 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Stirling_formula_lec.mlx)|
-|(2) 二項分布と正規分布 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Stirling_formula_lec.mlx)|
-
----
 
 ### 1.4 乱数を用いた数値計算
 
@@ -226,98 +207,7 @@ Stirlingの公式 $\ln N! \approx N\ln N - N$ が用いられる。
 | (3) コイン投げモデル | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=plot_distribution_lec_21v1.mlx) |
 | (3) Galton Board シミュレーション | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=plot_distribution_lec_21v1.mlx) |
 
----
 
-### 章末演習問題（1．準備）
-
-| 項目 | リンク |
-| -------------- | -------------- |
-|(1) ＊＊＊ | 準備中 |
-
-
-
-## 4. ミクロな状態遷移とゆらぎ
-
-### 3.1 詳細釣合いと平衡状態
-
-#### ＊＊＊　概要　＊＊＊
-
-ミクロな状態の遷移に基づいて平衡状態の実現を考察するため、ここでは、1次元理想気体のモデルを例とする。
-実際、以下のような問題を設定しよう。
-いま、系内には $N$個の粒子が存在し、初期状態では全粒子が同一の速度 $v_0$を持っているとする、
-この系が温度 $T$の熱浴に接している状況を考え、系がどのように平衡状態に緩和するかを調べる。
-特に、平衡状態における粒子の速度分布に着目しよう。
-統計力学に基づけば、平衡状態での速度分布はマクスウェル分布に従うことになる。
-初期条件では、速度分布は $v = v_0$でデルタ関数となっているが、このデルタ関数的な分布が、どのようにマクスウェル分布へと緩和していくかを観察する。
-
-
-#### ＊＊＊　ライブスクリプト　＊＊＊
-
-| 項目 | リンク |
-| -------------- | -------------- |
-| (1) 詳細つりあいと平衡状態  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/Detailed_balance_21v1.mlx)  |
-| (1) ２準位系  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/Detailed_balance_21v1.mlx)  |
-| (2) イジングモデル  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/Detailed_balance_21v1.mlx)  |
-
-
-
-### 3.2 相転移ダイナミクス
-
-#### ＊＊＊　準備中　＊＊＊
-
----
-
-### 章末演習問題（3．ミクロな状態遷移とゆらぎ）
-
-| 項目 | リンク |
-| -------------- | -------------- |
-|(1) ＊＊＊ | 準備中 |
-
-
----
-
-## 4. ランダムウォークと拡散
-
-### 4.1 ランダムウォーク
-
-#### ＊＊＊　概要　＊＊＊
-
-ランダムウォークは、非平衡状態の物理系を理解するための基本的なモデルとして広く用いられており、ブラウン運動などの物理現象を数理的に表現する際に重要な役割を果たす。
-また、ランダムウォークの統計的性質は、マクロな状態の予測可能性とミクロなランダム性の関係を示す一例としても有用である。
-実際、ランダムウォークの統計的性質として、初期点から $N$ステップ後の位置までの変位ベクトル $R(N)$に着目すると、 $R(N)^2$のサンプル平均（平均二乗変位）が $N$に比例することが知られている（ランダムウォークの拡散性）。
-
-
-#### ＊＊＊　ライブスクリプト　＊＊＊
-
-| 項目 | リンク |
-| -------------- | -------------- |
-| (1) ランダムウォーク  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/random_walk_lec_21v1.mlx)  |
-
----
-### 4.2 拡散
-
-#### ＊＊＊　概要　＊＊＊
-
-ランダムウォークは、非平衡状態の物理系を理解するための基本的なモデルとして広く用いられており、ブラウン運動などの物理現象を数理的に表現する際に重要な役割を果たす。
-また、ランダムウォークの統計的性質は、マクロな状態の予測可能性とミクロなランダム性の関係を示す一例としても有用である。
-実際、ランダムウォークの統計的性質として、初期点から $N$ステップ後の位置までの変位ベクトル $R(N)$に着目すると、 $R(N)^2$のサンプル平均（平均二乗変位）が $N$に比例することが知られている（ランダムウォークの拡散性）。
-
-
-#### ＊＊＊　ライブスクリプト　＊＊＊
-
-| 項目 | リンク |
-| -------------- | -------------- |
-| (1) 拡散  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/random_walk_lec_21v1.mlx)  |
-
-
----
-
-
-### 章末演習問題（4．ランダムウォークと拡散）
-
-| 項目 | リンク |
-| -------------- | -------------- |
-|(1) ＊＊＊ | 準備中 |
 
 
 ---
