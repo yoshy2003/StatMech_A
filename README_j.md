@@ -7,9 +7,12 @@
   - 特に、初学者が統計物理学の世界にスムーズに入門できるよう、直感的な説明と演習問題を提供する。
 - このサイトの内容は、数値計算・数値シミュレーションを用いた、座学で学ぶ統計力学講義に対する補助的な位置づけとなっている。
 
+### 講義ノート
+
+[draft(2402)版](https://waseda.box.com/s/up8s2rdezo4c7qe7vkk62ewszdgc5hw5)
+
+
 ### 目次
-[マインドマップ](https://github.com/yoshy2003/StatMech_A/blob/main/Images/mindmap.png)
-- pdf で一覧表を作成する
 
 - 第Ⅰ部 <a href="#part01">基礎</a>
   - 第１章 確率分布
