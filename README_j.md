@@ -92,9 +92,9 @@
 
 | 章.節 | 項目(markdownによるレビュー) | Livescript | MATLAB Online での実行 |
 | --- | -------------- | -------------- | -------------- |
-| (1) 詳細つりあいと平衡状態  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/Detailed_balance_21v1.mlx)  |
-| (1) ２準位系  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/Detailed_balance_21v1.mlx)  |
-| (2) イジングモデル  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/Detailed_balance_21v1.mlx)  |
+| *** | (1) 詳細つりあいと平衡状態  | *** |[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/Detailed_balance_21v1.mlx)  |
+| *** | (1) ２準位系  | *** | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/Detailed_balance_21v1.mlx)  |
+| *** | (2) イジングモデル  | *** | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/Detailed_balance_21v1.mlx)  |
 
 
 ---
@@ -109,6 +109,7 @@
 
 | 章.節 | 項目(markdownによるレビュー) | Livescript | MATLAB Online での実行 |
 | --- | -------------- | -------------- | -------------- |
+| *** | *** | *** | *** |
 
 
 ---
@@ -123,6 +124,7 @@
 
 | 章.節 | 項目(markdownによるレビュー) | Livescript | MATLAB Online での実行 |
 | --- | -------------- | -------------- | -------------- |
+| *** | *** | *** | *** |
 
 
 ---
@@ -138,13 +140,12 @@
 
 | 章.節 | 項目(markdownによるレビュー) | Livescript | MATLAB Online での実行 |
 | --- | -------------- | -------------- | -------------- |
-| (1) [離散分布に対する近似的な連続表現の妥当性](Livescripts/approx_dis_con.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/approx_dis_con.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/approx_dis_con.mlx) |
-|(2) [スターリングの公式：証明と近似精度](Livescripts/Stirling_formula_statA_240207.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/Stirling_formula_statA_240207.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Stirling_formula_statA_240207.mlx)|
-| (1) [一様乱数の生成と頻度分布の描画](Livescripts/uniform_random_number_histogram_lec_23.md)  | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/uniform_random_number_histogram_lec_23.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/uniform_random_number_histogram_lec_23.mlx)  |
-| (2) ランダムウォークと拡散  | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/random_walk_lec_21v1.mlx)  |
-|(1) モンテカルロ法による面積計算 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Monte_Carlo_lec_21v1.mlx)|
-| (3) コイン投げモデル | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=plot_distribution_lec_21v1.mlx) |
-| (3) Galton Board シミュレーション | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=plot_distribution_lec_21v1.mlx) |
+| *** | (1) [離散分布に対する近似的な連続表現の妥当性](Livescripts/approx_dis_con.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/approx_dis_con.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/approx_dis_con.mlx) |
+| *** |(2) [スターリングの公式：証明と近似精度](Livescripts/Stirling_formula_statA_240207.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/Stirling_formula_statA_240207.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Stirling_formula_statA_240207.mlx)|
+| *** | (1) [一様乱数の生成と頻度分布の描画](Livescripts/uniform_random_number_histogram_lec_23.md)  | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/uniform_random_number_histogram_lec_23.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/uniform_random_number_histogram_lec_23.mlx)  |
+| *** | (2) ランダムウォークと拡散  | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/random_walk_lec_21v1.mlx)  |
+| *** |(1) モンテカルロ法による面積計算 | *** | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Monte_Carlo_lec_21v1.mlx)|
+| *** | (3) Galton Board シミュレーション | *** | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=plot_distribution_lec_21v1.mlx) |
 
 
 
