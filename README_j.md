@@ -9,7 +9,7 @@
 
 ### 講義ノート
 
-[draft(2402)版](https://waseda.box.com/s/up8s2rdezo4c7qe7vkk62ewszdgc5hw5)
+[draft(2402)版](https://waseda.box.com/s/8eqv0jhajqmdqzskm43duqgso5ibm2eu)
 
 
 ### 目次
