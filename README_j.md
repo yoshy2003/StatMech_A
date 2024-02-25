@@ -9,7 +9,7 @@
 
 ### 講義ノート
 
-[draft(2402)版](https://www.dropbox.com/scl/fi/lmz7p7j2y7mduhcplylbl/240301-_Wrt.pdf?rlkey=msz24ckr3rc8gqxnrl9cci9ct&dl=0)
+[draft(2402)版](https://www.dropbox.com/scl/fi/wp8tw5cuuh78edzz8svb8/240301-_Wrt.pdf?rlkey=h3dcpf3f2zkdti59kwns9iem8&dl=0)
 
 
 ### 目次
