@@ -9,7 +9,7 @@
 
 ### 講義ノート
 
-[draft(2402)版](https://www.dropbox.com/scl/fi/wp8tw5cuuh78edzz8svb8/240301-_Wrt.pdf?rlkey=h3dcpf3f2zkdti59kwns9iem8&dl=0)
+[draft(2402)版](https://waseda.box.com/s/up8s2rdezo4c7qe7vkk62ewszdgc5hw5)
 
 
 ### ライブスクリプト集
