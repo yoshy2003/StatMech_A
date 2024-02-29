@@ -12,6 +12,16 @@
 - 数値計算・数値シミュレーションを用いた、座学（講義ノート）で学ぶ統計力学に対する相補的な位置づけとなっている。
 - 内容は随時更新されます。
 
+
+### 学習目標
+
+- マクロな階層とミクロな階層とを結びつける基本的な概念を理解する
+- 統計力学を通して現象を束ねて理解する
+  - 全く異なる現象を単純なモデルによって結びつけることによって統一して理解できる感覚を身につける
+- 乱数に基づく数値シミュレーションを通して、統計力学の基礎を学ぶ
+- 講義ノートを用いて理論の理解を深め、ライブスクリプトを用いて現象をモデル化し、数値シミュレーションできるようになる
+
+
 ### 講義ノート
 
 [draft(2402)版](https://waseda.box.com/s/up8s2rdezo4c7qe7vkk62ewszdgc5hw5)
@@ -42,6 +52,12 @@
 
 （2024年02月現在。内容は随時、追加・更新されます。）
 
+### 学習の流れ
+
+1. 講義ノートや概要を読み、目的を確認する
+2. ライブスクリプトの内容に従って、コードを実行する
+3. ライブスクリプトにある例題に取り組む
+
 ### 前提となる知識
 
 - 熱力学
@@ -51,18 +67,6 @@
 
 - 大学３年・４年（＋意欲的な高校生～大学２年生）
 - 物理学科の学生に限らず、より一般に、統計力学に興味のある方々
-
-### 学習目標
-
-- マクロな階層とミクロな階層とを結びつける基本的な概念を理解する
-- 乱数に基づく数値シミュレーションを通して、統計力学の基礎を学ぶ
-- 講義ノートを用いて理論の理解を深め、ライブスクリプトを用いて現象をモデル化し、数値シミュレーションできるようになる
-
-### 学習の流れ
-
-1. 講義ノートや概要を読み、目的を確認する
-2. ライブスクリプトの内容に従って、コードを実行する
-3. ライブスクリプトにある例題に取り組む
 
 ---
 
@@ -80,12 +84,11 @@
 | 1.1 | (1) [経験的確率と大数の法則](Livescripts/empirical_probability_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/empirical_probability_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/empirical_probability_statA_240205.mlx) |
 | 1.1 | (2) [基本的な確率分布](Livescripts/probability_distribution_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/probability_distribution_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/probabilityl_distributions_lec_v23.mlx) |
 | 1.2 | (3) [コイン投げ問題と近似の確認](Livescripts/coin_toss_statA_240229.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/coin_toss_statA_240229.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/coin_toss_statA_240229.mlx) |
-| 1.2 | (3) ２項分布と正規分布 | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/binomial_distribution_lec.mlx) |
+| 1.2 | (4) 二項分布から正規分布へ | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/binomial_distribution_lec.mlx) |
+| 1.2 | (5) [中心極限定理の確認](Livescripts/central_limit_theorem_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/central_limit_theorem_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/central_limit_theorem_statA_240205.mlx) |
 | 2 | (1) コイン分配モデルとカノニカル分布  | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Coin_canonical.mlx)|
 | 3 | (1) コイン交換モデルと平衡状態  | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Coin_exchange_23.mlx)|
 | 3 | (2) コイン交換モデルによる緩和過程 | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=coin_exchange_lec_21v1.mlx)|
-|| (4) 二項分布から正規分布へ | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/binomial_distribution_lec.mlx) |
-|| (5) [中心極限定理の確認](Livescripts/central_limit_theorem_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/central_limit_theorem_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/central_limit_theorem_statA_240205.mlx) |
 
 
 
