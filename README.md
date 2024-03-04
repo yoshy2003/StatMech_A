@@ -88,7 +88,6 @@
 | 1.2 | (5) [中心極限定理の確認](Livescripts/central_limit_theorem_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/central_limit_theorem_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/central_limit_theorem_statA_240205.mlx) |
 | 2.1 | (6) [コイン分配モデルとカノニカル分布](Livescripts/coin_canonical_statA_240304.md)  | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/coin_canonical_statA_240304.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/coin_canonical_statA_240304.mlx)|
 | 3.1 | (7) [コイン交換モデルと平衡状態](Livescripts/coin_exchange_statA_240304.md)  | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/coin_exchange_statA_240304.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/coin_exchange_statA_240304.mlx)|
-| 3 | (2) コイン交換モデルによる緩和過程 | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=coin_exchange_lec_21v1.mlx)|
 
 
 
@@ -104,6 +103,7 @@
 
 | 章.節 | 項目(markdownによるレビュー) | Livescript | MATLAB Online での実行 |
 | --- | -------------- | -------------- | -------------- |
+| 6.1 | (8) [コイン交換モデルにおける平均的挙動とゆらぎ分布](Livescripts/coin_exchange_2_statA_240304.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/coin_exchange_2_statA_240304.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/coin_exchange_2_statA_240304.mlx)|
 | *** | (1) 詳細つりあいと平衡状態  | *** |[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/Detailed_balance_21v1.mlx)  |
 | *** | (1) ２準位系  | *** | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/Detailed_balance_21v1.mlx)  |
 | *** | (2) イジングモデル  | *** | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/Detailed_balance_21v1.mlx)  |
