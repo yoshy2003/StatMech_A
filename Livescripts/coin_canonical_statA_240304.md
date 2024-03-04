@@ -47,7 +47,7 @@ xlabel('Number of conins', Interpreter='latex', FontSize=13)
 ylabel('Frequency', Interpreter='latex', FontSize=13)
 ```
 
-<center><img src="Coin_canonical_statA_240304_media/figure_0.png" width="525" alt="figure_0.png"></center>
+<center><img src="coin_canonical_statA_240304_media/figure_0.png" width="525" alt="figure_0.png"></center>
 
 
 ```matlab
@@ -93,7 +93,7 @@ for j = 1:1:tm
 end
 ```
 
-<center><img src="Coin_canonical_statA_240304_media/figure_1.png" width="525" alt="figure_1.png"></center>
+<center><img src="coin_canonical_statA_240304_media/figure_1.png" width="525" alt="figure_1.png"></center>
 
 <a name="H_5E22F317"></a>
 # 指数分布によるフィッティング
@@ -125,14 +125,14 @@ fitresult =
      一般モデル Exp1:
      fitresult(x) = a*exp(b*x)
      係数 (95% の信頼限界):
-       a =       189.3  (181.6, 197.1)
-       b =    -0.09494  (-0.1005, -0.08943)
+       a =       195.1  (189.3, 200.9)
+       b =    -0.09848  (-0.1026, -0.09432)
 gof = 
-           sse: 520.4515
-       rsquare: 0.9915
+           sse: 280.6564
+       rsquare: 0.9956
            dfe: 28
-    adjrsquare: 0.9912
-          rmse: 4.3113
+    adjrsquare: 0.9954
+          rmse: 3.1660
 ```
 
 ```matlab
@@ -149,7 +149,7 @@ ylabel('Frequency', Interpreter='latex', FontSize=13)
 grid on
 ```
 
-<center><img src="Coin_canonical_statA_240304_media/figure_2.png" width="525" alt="figure_2.png"></center>
+<center><img src="coin_canonical_statA_240304_media/figure_2.png" width="525" alt="figure_2.png"></center>
 
 
 ```matlab
@@ -172,7 +172,7 @@ hold on
 hold off
 ```
 
-<center><img src="Coin_canonical_statA_240304_media/figure_3.png" width="525" alt="figure_3.png"></center>
+<center><img src="coin_canonical_statA_240304_media/figure_3.png" width="525" alt="figure_3.png"></center>
 
 
 ```matlab
