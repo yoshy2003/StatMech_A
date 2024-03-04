@@ -72,19 +72,19 @@
 
 ## <p id="part01">第Ⅰ部 基礎</p>
 
-### ===== 概要 =====
+
+<!-- ### ===== 概要 =====
 
 - ライブスクリプトに合わせた概要に
 
-
-### ===== ライブスクリプト =====
+### ===== ライブスクリプト ===== -->
 
 | 章.節 | 項目(markdownによるレビュー) | Livescript | MATLAB Online での実行 |
 | --- | -------------- | -------------- | -------------- |
 | 1.1 | (1) [経験的確率と大数の法則](Livescripts/empirical_probability_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/empirical_probability_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/empirical_probability_statA_240205.mlx) |
 | 1.1 | (2) [基本的な確率分布](Livescripts/probability_distribution_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/probability_distribution_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/probabilityl_distributions_lec_v23.mlx) |
 | 1.2 | (3) [コイン投げ問題と近似の確認](Livescripts/coin_toss_statA_240229.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/coin_toss_statA_240229.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/coin_toss_statA_240229.mlx) |
-| 1.2 | (4) 二項分布から正規分布へ | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/binomial_distribution_lec.mlx) |
+| 1.2 | (4) [Galton board: 二項分布と正規分布](Livescripts/galton_board_statA_240304.md)  | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/galton_board_statA_240304.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/galton_board_statA_240304.mlx)|| 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/binomial_distribution_lec.mlx) |
 | 1.2 | (5) [中心極限定理の確認](Livescripts/central_limit_theorem_statA_240205.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/central_limit_theorem_statA_240205.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/central_limit_theorem_statA_240205.mlx) |
 | 2.1 | (6) [コイン分配モデルとカノニカル分布](Livescripts/coin_canonical_statA_240304.md)  | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/coin_canonical_statA_240304.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/coin_canonical_statA_240304.mlx)|
 | 3.1 | (7) [コイン交換モデルと平衡状態](Livescripts/coin_exchange_statA_240304.md)  | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/coin_exchange_statA_240304.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/coin_exchange_statA_240304.mlx)|
@@ -95,11 +95,11 @@
 
 ## 第２部 ミクロな状態のゆらぎと遷移【準備中】
 
-### ===== 概要 =====
+<!-- ### ===== 概要 =====
 
 - ライブスクリプトに合わせた概要に
 
-#### ===== ライブスクリプト =====
+#### ===== ライブスクリプト ===== -->
 
 | 章.節 | 項目(markdownによるレビュー) | Livescript | MATLAB Online での実行 |
 | --- | -------------- | -------------- | -------------- |
@@ -113,11 +113,11 @@
 
 ## 第３部 カノニカル分布の応用【準備中】
 
-### ===== 概要 =====
+<!-- ### ===== 概要 =====
 
 - ライブスクリプトに合わせた概要に
 
-#### ===== ライブスクリプト =====
+#### ===== ライブスクリプト ===== -->
 
 | 章.節 | 項目(markdownによるレビュー) | Livescript | MATLAB Online での実行 |
 | --- | -------------- | -------------- | -------------- |
@@ -128,11 +128,11 @@
 
 ## 第４部 量子統計【準備中】
 
-### ===== 概要 =====
+<!-- ### ===== 概要 =====
 
 - ライブスクリプトに合わせた概要に
 
-#### ===== ライブスクリプト =====
+#### ===== ライブスクリプト ===== -->
 
 | 章.節 | 項目(markdownによるレビュー) | Livescript | MATLAB Online での実行 |
 | --- | -------------- | -------------- | -------------- |
@@ -143,12 +143,11 @@
 
 ## 第５部 付録
 
-
-### ===== 概要 =====
+<!-- ### ===== 概要 =====
 
 - ライブスクリプトに合わせた概要に
 
-#### ===== ライブスクリプト =====
+#### ===== ライブスクリプト ===== -->
 
 | 章.節 | 項目(markdownによるレビュー) | Livescript | MATLAB Online での実行 |
 | --- | -------------- | -------------- | -------------- |
@@ -157,9 +156,6 @@
 | *** | (1) [一様乱数の生成と頻度分布の描画](Livescripts/uniform_random_number_histogram_lec_23.md)  | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/uniform_random_number_histogram_lec_23.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/uniform_random_number_histogram_lec_23.mlx)  |
 | *** | (2) ランダムウォークと拡散  | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/random_walk_lec_21v1.mlx)  |
 | *** |(1) モンテカルロ法による面積計算 | *** | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Monte_Carlo_lec_21v1.mlx)|
-| *** | (3) Galton Board シミュレーション | *** | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=plot_distribution_lec_21v1.mlx) |
-
-
 
 
 ---
@@ -171,7 +167,8 @@
 - 久保亮五　「統計力学」（共立出版）
 - 田崎晴明　「統計力学　Ⅰ・Ⅱ」（培風館）
 - 松下貢　「物理学講義　統計力学入門」（裳華房）
-- [その他のreferences](refs.md)
+
+<!-- - [その他のreferences](refs.md) -->
 
 ---
 
