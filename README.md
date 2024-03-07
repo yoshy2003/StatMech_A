@@ -4,7 +4,8 @@
 
 ### 概要
 
-- 統計物理学入門として、**平衡系の統計力学**を学ぶ。
+- 統計物理学入門として、**平衡状態の統計力学**を学ぶ。
+  - 全体の構想は、平衡状態の統計力学・平衡ゆらぎの関わる統計物理学・非平衡統計物理学・複雑系科学
 - このリポジトリには、統計力学の基礎を理解するためのMATLAB®ライブスクリプトが含まれている。
 - 統計力学を初めて学ぶ学生を対象に、MATLABを用いた数値計算・数値シミュレーションを通して、統計力学の基本的な概念や理論の背景を理解することを目的とする。
   - 特に、初学者が統計物理学の世界にスムーズに入門できるような直感的な説明を提供する。
@@ -102,8 +103,8 @@
 
 | 章.節 | 項目(markdownによるレビュー) | Livescript | MATLAB Online での実行 |
 | --- | -------------- | -------------- | -------------- |
-| 6.1 | (8) [コイン交換モデルにおける平均的挙動とゆらぎ分布](Livescripts/coin_exchange_2_statA_240304.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/coin_exchange_2_statA_240304.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/coin_exchange_2_statA_240304.mlx)|
-| 6.2 | (9)  [1次元自由粒子系：詳細つりあいによる平衡状態の再現](Livescripts/detailed_balance_statA_240304.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/detailed_balance_statA_240304.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/detailed_balance_statA_240304.mlx)|
+| 6.1 | (1) [コイン交換モデルの指数緩和](Livescripts/coin_exchange_2_statA_240304.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/coin_exchange_2_statA_240304.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/coin_exchange_2_statA_240304.mlx)|
+| 6.2 | (2)  [1次元自由粒子系：詳細つりあいによる平衡状態の再現](Livescripts/detailed_balance_statA_240304.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/detailed_balance_statA_240304.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/detailed_balance_statA_240304.mlx)|
 
 
 ---
@@ -150,10 +151,10 @@
 | --- | -------------- | -------------- | -------------- |
 | *** | (1) [離散分布に対する近似的な連続表現の妥当性](Livescripts/approx_dis_con.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/approx_dis_con.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/approx_dis_con.mlx) |
 | *** |(2) [スターリングの公式：証明と近似精度](Livescripts/Stirling_formula_statA_240207.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/Stirling_formula_statA_240207.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Stirling_formula_statA_240207.mlx)|
-| *** | (1) [一様乱数の生成と頻度分布の描画](Livescripts/uniform_random_number_histogram_lec_23.md)  | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/uniform_random_number_histogram_lec_23.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/uniform_random_number_histogram_lec_23.mlx)  |
-| *** | (2) ランダムウォークと拡散  | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/random_walk_lec_21v1.mlx)  |
-| *** |(1) モンテカルロ法による面積計算 | *** | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Monte_Carlo_lec_21v1.mlx)|
-| *** |(1) イジングモデル | *** | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Monte_Carlo_lec_21v1.mlx)|
+| *** | (3) ランダムウォークと拡散  | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/random_walk_lec_21v1.mlx)  |
+| *** |(4) モンテカルロ法による面積計算 | *** | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Monte_Carlo_lec_21v1.mlx)|
+| *** |(5) イジングモデル | *** | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Monte_Carlo_lec_21v1.mlx)|
+<!-- | *** | (1) [一様乱数の生成と頻度分布の描画](Livescripts/uniform_random_number_histogram_lec_23.md)  | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/uniform_random_number_histogram_lec_23.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/uniform_random_number_histogram_lec_23.mlx)  | -->
 
 
 ---
