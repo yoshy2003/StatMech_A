@@ -24,7 +24,7 @@
 
 ### 講義ノート
 
-[draft(2402)版](https://waseda.box.com/s/up8s2rdezo4c7qe7vkk62ewszdgc5hw5)
+[draft(240308)版](https://waseda.box.com/s/xozrws2nlrkb0iuim7ylyg5xiv3fqwmh)
 
 
 ### ライブスクリプト集
