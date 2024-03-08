@@ -34,7 +34,7 @@
   - 第２章 カノニカル分布
   - 第３章 ミクロカノニカル分布とボルツマンの関係式
   - 第４章 グランドカノニカル分布
-- 第Ⅱ部 <a href="#part02">ミクロな状態のゆらぎと遷移</a>【準備中】
+- 第Ⅱ部 <a href="#part02">ミクロな状態のゆらぎと遷移</a>
   - 第５章 平衡状態のゆらぎ
   - 第６章 ミクロな状態の遷移
 - 第Ⅲ部 <a href="#part03">カノニカル分布の応用</a>【準備中】
@@ -46,11 +46,11 @@
   - 第１１章 量子多体系
   - 第１２章 フェルミ自由粒子系
   - 第１３章 ボーズ自由粒子系
-- 第Ⅴ部 <a href="#part05">付録</a>
+<!-- - 第Ⅴ部 <a href="#part05">付録</a>
   - A. 数学的準備
-  - B. その他（関連内容）
+  - B. その他（関連内容） -->
 
-（2024年02月現在。内容は随時、追加・更新されます。）
+（2024年03月現在。内容は随時、追加・更新されます。）
 
 ### 学習の流れ
 
@@ -137,15 +137,16 @@
 | *** | *** | *** | *** |
 
 
+<!--
 ---
 
 ## 第５部 付録
 
-<!-- ### ===== 概要 =====
+### ===== 概要 =====
 
 - ライブスクリプトに合わせた概要に
 
-#### ===== ライブスクリプト ===== -->
+#### ===== ライブスクリプト =====
 
 | 章.節 | 項目(markdownによるレビュー) | Livescript | MATLAB Online での実行 |
 | --- | -------------- | -------------- | -------------- |
@@ -154,7 +155,7 @@
 | *** | (3) ランダムウォークと拡散  | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/random_walk_lec_21v1.mlx)  |
 | *** |(4) モンテカルロ法による面積計算 | *** | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Monte_Carlo_lec_21v1.mlx)|
 | *** |(5) イジングモデル | *** | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Monte_Carlo_lec_21v1.mlx)|
-<!-- | *** | (1) [一様乱数の生成と頻度分布の描画](Livescripts/uniform_random_number_histogram_lec_23.md)  | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/uniform_random_number_histogram_lec_23.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/uniform_random_number_histogram_lec_23.mlx)  | -->
+| *** | (1) [一様乱数の生成と頻度分布の描画](Livescripts/uniform_random_number_histogram_lec_23.md)  | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/uniform_random_number_histogram_lec_23.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/uniform_random_number_histogram_lec_23.mlx)  | -->
 
 
 ---
