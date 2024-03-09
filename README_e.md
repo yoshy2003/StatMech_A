@@ -1,9 +1,11 @@
-# StatMech_A（統計力学Ａ講義）
+# Statistical Mechanics for Equilibrium States
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A)
 
-Collection of MATLAB Live Scripts on the class "Statistical Mechanics A"
+**In preparation**
 
-Japanese version is [here](./README_j.md). （日本語のページは [こちら](./README_j.md)）
+Collection of MATLAB Live Scripts
+
+Japanese version is [here](./README.md). （日本語のページは [こちら](./README.md)）
 
 ## Fundamentals
 
