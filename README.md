@@ -179,8 +179,8 @@
 - [MATLAB基礎](https://matlabacademy.mathworks.com/jp/details/matlab-fundamentals/mlbe)
 
 ### 使用する製品
-- MATLABと以下のtoolbox
-  - Statistics and Machine Learning Toolbox
+- MATLAB
+- Statistics and Machine Learning Toolbox
 
 ## ライセンス
 
