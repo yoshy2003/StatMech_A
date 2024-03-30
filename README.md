@@ -46,8 +46,9 @@
   - 第１１章 量子多体系
   - 第１２章 フェルミ自由粒子系
   - 第１３章 ボーズ自由粒子系
-<!-- - 第Ⅴ部 <a href="#part05">付録</a>
-  - A. 数学的準備
+- 第Ⅴ部 <a href="#part05">付録</a>
+  - 第１４章 物理数学
+  <!-- - A. 数学的準備
   - B. その他（関連内容） -->
 
 （2024年03月現在。内容は随時、追加・更新されます。）
@@ -136,21 +137,21 @@
 | *** | *** | *** | *** |
 
 
-<!--
 ---
 
-## 第５部 付録
+## <p id="part05">第５部 付録</p>
 
-### ===== 概要 =====
+
+<!-- ### ===== 概要 =====
 
 - ライブスクリプトに合わせた概要に
 
-#### ===== ライブスクリプト =====
+#### ===== ライブスクリプト ===== -->
 
 | 章.節 | 項目(markdownによるレビュー) | Livescript | MATLAB Online での実行 |
 | --- | -------------- | -------------- | -------------- |
-| *** | (1) [離散分布に対する近似的な連続表現の妥当性](Livescripts/approx_dis_con.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/approx_dis_con.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/approx_dis_con.mlx) |
-| *** |(2) [スターリングの公式：証明と近似精度](Livescripts/Stirling_formula_statA_240207.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/Stirling_formula_statA_240207.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Stirling_formula_statA_240207.mlx)|
+| 14.4 |(1) [スターリングの公式：証明と近似精度](Livescripts/Stirling_formula_statA_240207.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/Stirling_formula_statA_240207.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Stirling_formula_statA_240207.mlx)|
+<!-- | *** | (1) [離散分布に対する近似的な連続表現の妥当性](Livescripts/approx_dis_con.md) | [ダウンロード](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/approx_dis_con.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/approx_dis_con.mlx) |
 | *** | (3) ランダムウォークと拡散  | 準備中 | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=/Livescripts/random_walk_lec_21v1.mlx)  |
 | *** |(4) モンテカルロ法による面積計算 | *** | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Monte_Carlo_lec_21v1.mlx)|
 | *** |(5) イジングモデル | *** | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/Monte_Carlo_lec_21v1.mlx)|
