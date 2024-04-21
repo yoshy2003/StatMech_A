@@ -102,5 +102,5 @@ ylim([1e-6 1])
 
 ![figure_3.png](empirical_probability_statA_240205_en_media/figure_3.png)
 
-\linebreak 
+
 
