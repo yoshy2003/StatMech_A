@@ -1,5 +1,7 @@
 # 平衡状態の統計力学
 
+English version is [here](README_e.md).
+
 ## 全体の説明
 
 ### 概要
