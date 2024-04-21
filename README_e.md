@@ -104,8 +104,8 @@ Japanese version is [here](README.md).
 
 | Section.Chapter | Content | Livescript Link| Open with MATLAB Online |
 | --- | -------------- | -------------- | -------------- |
-| 6.1 | (1) [Exponential relaxation of the coin exchange model](Livescripts/coin_exchange_2_statA_240304.md) | [download](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/coin_exchange_2_statA_240304.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/coin_exchange_2_statA_240304.mlx)|
-| 6.2 | (2)  [Free particile system in 1D：Reproduction of equilibrium state by detailed balance](Livescripts/detailed_balance_statA_240304.md) | [download](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/detailed_balance_statA_240304.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/detailed_balance_statA_240304.mlx)|
+| 6.1 | (1) [Exponential relaxation of the coin exchange model](Livescripts/coin_exchange_2_statA_240304_en.md) | [download](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/coin_exchange_2_statA_240304_en.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/coin_exchange_2_statA_240304_en.mlx)|
+| 6.2 | (2)  [Free particile system in 1D：Reproduction of equilibrium state by detailed balance](Livescripts/detailed_balance_statA_240304_en.md) | [download](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/detailed_balance_statA_240304_en.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/detailed_balance_statA_240304_en.mlx)|
 
 
 ---
