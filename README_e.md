@@ -47,9 +47,9 @@ Japanese version is [here](README.md).
   - Chapter 11 Quantum many-body systems
   - Chapter 12 Fermi free particle systems
   - Chapter 13 Bose Free Particle Systems
-<! -- Part V <a href="#part05">Appendix</a>
+<!-- Part V <a href="#part05">Appendix</a>
   - A. Mathematical Preparation
-  - B. Other (related content) -->.
+  - B. Other (related content). -->
 
 (As of Mar/2024. Contents will be added/updated as needed)
 
@@ -87,7 +87,7 @@ Japanese version is [here](README.md).
 | 1.2 | (3) [Coin Toss Problem and Verification of Approximations](Livescripts/coin_toss_statA_240229_en.md) | [download](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/coin_toss_statA_240229_en.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/coin_toss_statA_240229_en.mlx) |
 | 1.2 | (4) [Galton board: binomial and normal distributions](Livescripts/galton_board_statA_240304_en.md)  | [download](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/galton_board_statA_240304_en.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/galton_board_statA_240304_en.mlx)|
 | 1.2 | (5) [Central Limit Theorem](Livescripts/central_limit_theorem_statA_240205_en.md) | [download](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/central_limit_theorem_statA_240205_en.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/central_limit_theorem_statA_240205_en.mlx) |
-| 2.1 | (6) [Coin distribution model and canonical distribution](Livescripts/coin_canonical_statA_240304.md)  | [download](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/coin_canonical_statA_240304.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/coin_canonical_statA_240304.mlx)|
+| 2.1 | (6) [Coin distribution model and canonical distribution](Livescripts/coin_canonical_statA_240304_en.md)  | [download](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/coin_canonical_statA_240304_en.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/coin_canonical_statA_240304_en.mlx)|
 | 3.1 | (7) [Coin exchange model and equilibrium state](Livescripts/coin_exchange_statA_240304.md)  | [download](https://github.com/yoshy2003/StatMech_A/raw/main/Livescripts/coin_exchange_statA_240304.mlx) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=yoshy2003/StatMech_A&file=Livescripts/coin_exchange_statA_240304.mlx)|
 
 
