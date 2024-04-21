@@ -27,7 +27,7 @@ Japanese version is [here](README.md).
 
 ### Lecture Notes (In Japanese)
 
-- [draft(240309)](https://waseda.box.com/s/xozrws2nlrkb0iuim7ylyg5xiv3fqwmh)
+- [draft(constantly updated)](https://waseda.box.com/s/xozrws2nlrkb0iuim7ylyg5xiv3fqwmh)
 
 ### Collection of MATLAB Live Scripts
 - Part I <a href="#part01">Fundamentals</a>
